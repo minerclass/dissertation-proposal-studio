@@ -1,0 +1,16 @@
+# PRIVACY: never publish defense-prep, committee names, or candid self-assessment.
+# The entire private/ folder stays local and is never committed or pushed.
+private/
+
+# Python / tooling cruft
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3
+*.sqlite3-journal
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

@@ -1,0 +1,195 @@
+{
+  "project_title": "Pedagogical Friction in the Age of Generative AI",
+  "qualifying_paper_title": "Beyond Secondary Orality: Tertiary Algorithmicity and the Case for Pedagogical Friction",
+  "overview": {
+    "abstract_short": "A conceptual argument that generative AI requires extending Walter Ong's media ecology beyond secondary orality. It proposes two new stages, algorithmic secondary orality and tertiary algorithmicity, and offers 'pedagogical friction' as an educational response framework focused on preserving cognitive, rhetorical, existential, and infrastructural resistance necessary for durable learning.",
+    "central_problem": "The central educational problem posed by generative AI is the bypassing of interpretive labor, intellectual accountability, and developmental conditions for learning rather than academic integrity.",
+    "key_contributions": [
+      "Identifies three broken assumptions in Ong's framework under contemporary algorithmic media: human origination of symbolic content, transparent distribution logics, and media as external environment.",
+      "Proposes two extensions: algorithmic secondary orality (human creation plus algorithmic circulation) and tertiary algorithmicity (algorithmic creation plus curation; human authorship optional at scale).",
+      "Develops three defining characteristics of tertiary algorithmicity: noetic displacement, rhetorical saturation, and existential abstraction.",
+      "Synthesizes media ecology with learning sciences (productive failure, desirable difficulties, cognitive load) to propose pedagogical friction.",
+      "Introduces a productive vs. exclusionary friction distinction to avoid reproducing inequity under the guise of rigor."
+    ]
+  },
+  "stages": [
+    {
+      "id": "primary_orality",
+      "label": "Primary Orality",
+      "summary": "Memory-based, communal, situational thought; knowledge preserved through repetition and formulaic expression.",
+      "source_anchor": "In primary oral cultures, the noetic world is memory-based, communal, and situational. Knowledge must be preserved through repetition."
+    },
+    {
+      "id": "literacy",
+      "label": "Literacy",
+      "summary": "Writing externalizes memory; enables analytical detachment, abstraction, critique, and private interiority.",
+      "source_anchor": "By separating the knower from the known, writing makes possible increasingly articulate introspectivity."
+    },
+    {
+      "id": "secondary_orality",
+      "label": "Secondary Orality",
+      "summary": "Broadcast media retrieves participatory oral qualities within literate infrastructure.",
+      "source_anchor": "Secondary orality emerges with electronic broadcast media, yet depends on literate infrastructure like scripts and schedules."
+    },
+    {
+      "id": "algorithmic_secondary_orality",
+      "label": "Algorithmic Secondary Orality",
+      "summary": "Humans still create symbolic content while algorithms increasingly determine its circulation via opaque personalization.",
+      "source_anchor": "Humans continued to create symbolic content, but algorithms increasingly determined what content reached which consciousness."
+    },
+    {
+      "id": "tertiary_algorithmicity",
+      "label": "Tertiary Algorithmicity",
+      "summary": "Algorithmic systems both curate and generate symbolic content, rendering human authorship optional at scale.",
+      "source_anchor": "Algorithmic systems both create and curate symbolic content, making human authorship optional at scale."
+    }
+  ],
+  "concepts": [
+    {
+      "id": "algorithmic_secondary_orality",
+      "title": "Algorithmic Secondary Orality",
+      "definition": "A transitional phase where human-created content persists but algorithmic feeds and recommendation systems determine what reaches which people.",
+      "tags": ["media ecology", "platforms", "personalization"],
+      "key_points": [
+        "Fragmentation of shared symbolic environment as two users see different feeds.",
+        "Editorial function shifts from visible human judgment to opaque engagement-optimized ranking."
+      ]
+    },
+    {
+      "id": "tertiary_algorithmicity",
+      "title": "Tertiary Algorithmicity",
+      "definition": "A condition in which algorithmic systems generate as well as curate symbolic content, so authorship is not necessarily human.",
+      "tags": ["generative AI", "authorship", "learning"],
+      "key_points": [
+        "Qualitative rupture from distribution to generation.",
+        "Oral or literate modality matters less than human vs. algorithmic origination."
+      ]
+    },
+    {
+      "id": "noetic_displacement",
+      "title": "Noetic Displacement",
+      "definition": "Cognitive labor is externalized from storage and retrieval to generation; interpretive operations are offloaded to external systems.",
+      "tags": ["cognition", "learning"],
+      "key_points": [
+        "Students can submit competent analysis without engaging in interpretive labor.",
+        "Raises the practical question: what has the student learned?"
+      ]
+    },
+    {
+      "id": "rhetorical_saturation",
+      "title": "Rhetorical Saturation",
+      "definition": "Communicative environments flood with synthetic discourse; origin uncertainty rises and dialogic quality degrades.",
+      "tags": ["discourse", "trust", "dialogue"],
+      "key_points": [
+        "Origin uncertainty becomes structurally difficult.",
+        "Simulated dialogue offers responsiveness without genuine contestation."
+      ]
+    },
+    {
+      "id": "existential_abstraction",
+      "title": "Existential Abstraction",
+      "definition": "Symbolic production detaches from lived experience and intellectual stakes; claims can circulate without an accountable claimant.",
+      "tags": ["ethics", "agency"],
+      "key_points": [
+        "Connection between claim and claimant dissolves.",
+        "Students can produce without investing and avoid intellectual risk."
+      ]
+    },
+    {
+      "id": "pedagogical_friction",
+      "title": "Pedagogical Friction",
+      "definition": "Intentional preservation of cognitive, rhetorical, existential, and infrastructural resistance necessary for durable learning when automation trends toward frictionless production.",
+      "tags": ["instructional design", "policy"],
+      "key_points": [
+        "Not a ban or embrace stance; it is design for necessary difficulty.",
+        "Protect productive struggle while reducing unproductive obstacles."
+      ]
+    },
+    {
+      "id": "productive_vs_exclusionary",
+      "title": "Productive vs. Exclusionary Friction",
+      "definition": "A distinction to prevent preserving struggle from becoming inequitable: some difficulty builds schema, while some blocks participation.",
+      "tags": ["equity", "access"],
+      "key_points": [
+        "Translation can remove exclusionary friction while also flattening voice.",
+        "Determination requires situated professional judgment, not a universal rule."
+      ]
+    }
+  ],
+  "framework_dimensions": [
+    {
+      "id": "noetic",
+      "label": "Noetic Friction (The Head)",
+      "definition": "Internal cognitive resistance required for comprehension, synthesis, argumentation, and revision; aligns with germane load, generation effect, and productive failure.",
+      "examples": ["struggle to synthesize sources", "compose original work", "retrieval practice"]
+    },
+    {
+      "id": "rhetorical",
+      "label": "Rhetorical Friction (The Room)",
+      "definition": "Dialogic struggle of defending ideas with unpredictable real audiences; includes peer review, discussion, and oral defense.",
+      "examples": ["peer critique", "seminar discussion", "public presentation"]
+    },
+    {
+      "id": "existential",
+      "label": "Existential Friction (The World)",
+      "definition": "Embodied accountability and vulnerability of authorship: being personally answerable for claims.",
+      "examples": ["oral defense", "authorial stance", "revision grounded in personal investment"]
+    },
+    {
+      "id": "infrastructural",
+      "label": "Infrastructural Friction (The System)",
+      "definition": "Policy, assessment, and professional learning conditions enabling or constraining the other dimensions.",
+      "examples": ["AI policy that names productive struggle", "assessment norms evaluating process", "professional development for friction-preserving pedagogy"]
+    }
+  ],
+  "research_questions": {
+    "qualifying_paper": [
+      "What does Ong's media ecology make newly visible about algorithmic curation and generative AI as transformations of the communication environment?",
+      "What are the educational consequences when algorithmic systems do more than mediate and actually generate the symbolic environments in which students learn?",
+      "What theoretical framework can guide educators in preserving the cognitive, rhetorical, and existential conditions necessary for durable learning in an age of generative AI?"
+    ],
+    "dissertation": {
+      "RQ1": "How do K-12 teachers understand and navigate the friction-reducing affordances of generative AI in academic work?",
+      "RQ2": "What institutional conditions, such as policy, assessment design, professional development, and leadership disposition, enable or constrain friction-preserving pedagogy?",
+      "RQ3": "How can the Pedagogical Friction Framework inform AI policy development in K-12 contexts?",
+      "SRQ": "How do current university students who were in their sophomore, junior, or senior year of high school when generative AI tools became publicly available in late 2022 describe changes in their experiences of cognitive struggle, authorial ownership, and learning processes across the pre-GenAI and post-GenAI transition?",
+      "SAQ": "When agentic AI systems are prompted to respond as educators to the same interview protocol and survey instrument, how do their outputs differ structurally from human practitioner responses, and what do these differences reveal about the nature of pedagogical reasoning necessary for friction-preserving practice?"
+    }
+  },
+  "design": {
+    "approach": "Convergent mixed methods (QUAL + quan) embedded in a collective instrumental case study.",
+    "qualitative": {
+      "sources": [
+        "Semi-structured interviews",
+        "Card sort protocol",
+        "Institutional document analysis"
+      ],
+      "participants": [
+        "K-12 teachers",
+        "Building administrators",
+        "District leaders",
+        "University students"
+      ]
+    },
+    "quantitative": {
+      "sources": [
+        "NCES School Pulse Panel (December 2024 release)",
+        "RAND American Educator Panel (2023-2025)",
+        "Original teacher survey instrument"
+      ]
+    },
+    "integration": [
+      "Joint displays by research question",
+      "Narrative integration",
+      "Meta-inferences"
+    ]
+  },
+  "ai_comparison_indicators": [
+    { "id": "experiential_specificity", "label": "Experiential specificity" },
+    { "id": "productive_exclusionary", "label": "Productive vs. exclusionary friction distinction" },
+    { "id": "institutional_memory", "label": "Institutional memory and relational knowledge" },
+    { "id": "uncertainty", "label": "Professional uncertainty and ambivalence" },
+    { "id": "dimension_coverage", "label": "Framework dimension coverage" },
+    { "id": "temporal_authenticity", "label": "Temporal authenticity (student-matched)" }
+  ]
+}

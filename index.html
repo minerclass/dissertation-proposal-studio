@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedagogical Friction in the Age of Generative AI &middot; Intellectual History</title>
+  <meta name="description" content="An interactive intellectual history of the references behind Pedagogical Friction in the Age of Generative AI: tertiary algorithmicity and the case for friction-preserving pedagogy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <span class="brand-mark">PF</span>
+      <span class="brand-text">Pedagogical Friction <em>Studio</em></span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#arc">The Arc</a>
+      <a href="#traditions">Traditions</a>
+      <a href="#framework">Framework</a>
+      <a href="#library">Library</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <p class="eyebrow">Dissertation Proposal &middot; Intellectual History</p>
+      <h1>Pedagogical Friction in the<br />Age of Generative AI</h1>
+      <p class="hero-sub" id="hero-sub">Loading the argument&hellip;</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#arc">Walk the argument</a>
+        <a class="btn ghost" href="#traditions">Explore the lineage</a>
+      </div>
+      <dl class="hero-stats" id="hero-stats"></dl>
+    </section>
+
+    <!-- THE ARC -->
+    <section id="arc" class="band">
+      <div class="band-head">
+        <h2>The Arc</h2>
+        <p>From primary orality to tertiary algorithmicity. Walter Ong charted how each communication environment restructures consciousness. This dissertation extends that arc two stages further, into the territory generative AI now occupies. Select a stage.</p>
+      </div>
+      <div class="stage-rail" id="stage-rail" role="tablist" aria-label="Media-ecology stages"></div>
+      <div class="stage-detail" id="stage-detail" aria-live="polite"></div>
+    </section>
+
+    <!-- TRADITIONS -->
+    <section id="traditions" class="band alt">
+      <div class="band-head">
+        <h2>Traditions</h2>
+        <p>The argument does not come from nowhere. It is woven from distinct intellectual lineages, each contributing a thread. Select a tradition to see what it contributes, which dimension of friction it grounds, and the sources behind it.</p>
+      </div>
+      <div class="tradition-layout">
+        <ul class="tradition-list" id="tradition-list" role="tablist" aria-label="Intellectual traditions"></ul>
+        <div class="tradition-detail" id="tradition-detail" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- FRAMEWORK -->
+    <section id="framework" class="band">
+      <div class="band-head">
+        <h2>The Pedagogical Friction Framework</h2>
+        <p>Friction is not an obstacle to remove. It is the resistance that durable learning requires. The framework names four dimensions and one essential distinction. Select a dimension.</p>
+      </div>
+      <div class="framework-grid" id="framework-grid"></div>
+      <div class="framework-detail" id="framework-detail" aria-live="polite"></div>
+      <div class="distinction" id="distinction"></div>
+    </section>
+
+    <!-- LIBRARY -->
+    <section id="library" class="band alt">
+      <div class="band-head">
+        <h2>Reference Library</h2>
+        <p>Every source, searchable. Filter by tradition or by dimension of friction, or search by author, title, or idea. Each entry links to its reading folder in Drive.</p>
+      </div>
+      <div class="library-controls">
+        <input type="search" id="ref-search" placeholder="Search author, title, or idea&hellip;" aria-label="Search references" />
+        <select id="ref-tradition" aria-label="Filter by tradition"><option value="">All traditions</option></select>
+        <select id="ref-friction" aria-label="Filter by friction dimension">
+          <option value="">All dimensions</option>
+          <option value="noetic">Noetic (head)</option>
+          <option value="rhetorical">Rhetorical (room)</option>
+          <option value="existential">Existential (world)</option>
+          <option value="infrastructural">Infrastructural (system)</option>
+        </select>
+        <span class="ref-count" id="ref-count"></span>
+      </div>
+      <ul class="ref-list" id="ref-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Pedagogical Friction Studio</strong> &middot; Micah J. Miner &middot; Ed.D. in Curriculum, Advocacy &amp; Policy, National Louis University</p>
+    <p class="muted">Public intellectual-history view. Citations are drawn from the author's compiled annotated bibliography; verify page numbers against originals before quoting. This page is for scholarly orientation and does not report dissertation findings.</p>
+  </footer>
+
+  <div id="error-banner" class="error-banner" hidden></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
