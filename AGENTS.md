@@ -23,7 +23,7 @@ history of the references and argument, and a **private** defense-prep studio.
   existential abstraction**.
 - Framework: **Pedagogical Friction** with four dimensions (noetic/head, rhetorical/room,
   existential/world, infrastructural/system) and the **productive vs. exclusionary** distinction.
-- Design: **qualitative-dominant convergent mixed methods**, collective instrumental case study.
+- Design: **qualitative-dominant convergent mixed methods**, **Merriam's interpretive (constructivist) case study**, bounded by the phenomenon rather than a single site. (Not Stake's collective instrumental design, which the current draft rejects; Stake and Yin appear only as contrast lenses.)
 
 ## Data and privacy restrictions
 
