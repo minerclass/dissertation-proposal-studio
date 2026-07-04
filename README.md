@@ -71,3 +71,12 @@ citations should be verified against originals before quoting.
 
 User-facing copy avoids em dashes by author preference. Use commas, colons, or restructured
 sentences. En dashes in ranges (K-12) are fine.
+
+## License
+
+This repository is dual-licensed to separate code from scholarship:
+
+- **Code** (HTML, CSS, JavaScript, config): [MIT License](LICENSE).
+- **Written and scholarly content** (framework descriptions, prose, figures): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), reuse and adapt with attribution to Micah J. Miner.
+
+The Pedagogical Friction framework and its terminology are the author's scholarly work; please cite the dissertation and related publications when building on them.
