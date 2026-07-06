@@ -149,15 +149,13 @@
       "What theoretical framework can guide educators in preserving the cognitive, rhetorical, and existential conditions necessary for durable learning in an age of generative AI?"
     ],
     "dissertation": {
-      "RQ1": "How do K-12 teachers understand and navigate the friction-reducing affordances of generative AI in academic work?",
-      "RQ2": "What institutional conditions, such as policy, assessment design, professional development, and leadership disposition, enable or constrain friction-preserving pedagogy?",
-      "RQ3": "How can the Pedagogical Friction Framework inform AI policy development in K-12 contexts?",
-      "SRQ": "How do current university students who were in their sophomore, junior, or senior year of high school when generative AI tools became publicly available in late 2022 describe changes in their experiences of cognitive struggle, authorial ownership, and learning processes across the pre-GenAI and post-GenAI transition?",
-      "SAQ": "When agentic AI systems are prompted to respond as educators to the same interview protocol and survey instrument, how do their outputs differ structurally from human practitioner responses, and what do these differences reveal about the nature of pedagogical reasoning necessary for friction-preserving practice?"
+      "RQ1": "How do K-12 classroom-facing educators understand and navigate the friction-reducing affordances of generative AI in academic work, particularly in relation to productive and exclusionary friction?",
+      "RQ2": "What institutional conditions, including policy, assessment design, professional development, leadership disposition, and governance structures, enable or constrain friction-preserving pedagogy across classroom, building, and system levels?",
+      "RQ3": "What framework-aligned policy language, assessment expectations, and instructional-design supports do K-12 educators and school-system leaders describe as necessary to preserve productive friction while reducing exclusionary friction under conditions of generative AI?"
     }
   },
   "design": {
-    "approach": "Convergent mixed methods (QUAL + quan) embedded in a collective instrumental case study.",
+    "approach": "Qualitative-dominant convergent mixed methods case study (QUAL + quan) aligned with Merriam's interpretive tradition.",
     "qualitative": {
       "sources": [
         "Semi-structured interviews",
@@ -165,10 +163,10 @@
         "Institutional document analysis"
       ],
       "participants": [
-        "K-12 teachers",
-        "Building administrators",
-        "District leaders",
-        "University students"
+        "K-12 classroom-facing educators",
+        "Building-level administrators",
+        "District or system-level leaders",
+        "University students (contextual learner-perspective supplement only)"
       ]
     },
     "quantitative": {
