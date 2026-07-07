@@ -2,8 +2,8 @@
   "project_title": "Pedagogical Friction in the Age of Generative AI",
   "qualifying_paper_title": "Beyond Secondary Orality: Tertiary Algorithmicity and the Case for Pedagogical Friction",
   "overview": {
-    "abstract_short": "A conceptual argument that generative AI requires extending Walter Ong's media ecology beyond secondary orality. It proposes two new stages, algorithmic secondary orality and tertiary algorithmicity, and offers 'pedagogical friction' as an educational response framework focused on preserving cognitive, rhetorical, existential, and infrastructural resistance necessary for durable learning.",
-    "central_problem": "The central educational problem posed by generative AI is the bypassing of interpretive labor, intellectual accountability, and developmental conditions for learning rather than academic integrity.",
+    "abstract_short": "A conceptual argument that generative AI requires extending Walter Ong's media ecology beyond secondary orality. It proposes two new stages, algorithmic secondary orality and tertiary algorithmicity, and offers 'pedagogical friction' as an educational response framework focused on preserving the noetic, rhetorical, existential, and infrastructural conditions necessary for durable learning.",
+    "central_problem": "The central educational problem posed by generative AI is the bypassing of interpretive labor, intellectual accountability, and developmental conditions for learning rather than academic integrity alone.",
     "key_contributions": [
       "Identifies three broken assumptions in Ong's framework under contemporary algorithmic media: human origination of symbolic content, transparent distribution logics, and media as external environment.",
       "Proposes two extensions: algorithmic secondary orality (human creation plus algorithmic circulation) and tertiary algorithmicity (algorithmic creation plus curation; human authorship optional at scale).",
@@ -98,11 +98,12 @@
     {
       "id": "pedagogical_friction",
       "title": "Pedagogical Friction",
-      "definition": "Intentional preservation of cognitive, rhetorical, existential, and infrastructural resistance necessary for durable learning when automation trends toward frictionless production.",
+      "definition": "Intentional preservation of the cognitive, dialogic, authorial, and institutional conditions necessary for durable learning when automation trends toward frictionless production.",
       "tags": ["instructional design", "policy"],
       "key_points": [
         "Not a ban or embrace stance; it is design for necessary difficulty.",
-        "Protect productive struggle while reducing unproductive obstacles."
+        "Protect productive struggle while reducing exclusionary obstacles.",
+        "Treat noetic, rhetorical, and existential friction as learner-facing dimensions, with infrastructural friction as the system layer that enables or constrains them."
       ]
     },
     {
@@ -120,25 +121,25 @@
     {
       "id": "noetic",
       "label": "Noetic Friction (The Head)",
-      "definition": "Internal cognitive resistance required for comprehension, synthesis, argumentation, and revision; aligns with germane load, generation effect, and productive failure.",
+      "definition": "A learner-facing dimension: internal cognitive resistance required for comprehension, synthesis, argumentation, and revision; aligns with germane load, generation effect, and productive failure.",
       "examples": ["struggle to synthesize sources", "compose original work", "retrieval practice"]
     },
     {
       "id": "rhetorical",
       "label": "Rhetorical Friction (The Room)",
-      "definition": "Dialogic struggle of defending ideas with unpredictable real audiences; includes peer review, discussion, and oral defense.",
+      "definition": "A learner-facing dimension: dialogic struggle of defending ideas with unpredictable real audiences; includes peer review, discussion, and oral defense.",
       "examples": ["peer critique", "seminar discussion", "public presentation"]
     },
     {
       "id": "existential",
       "label": "Existential Friction (The World)",
-      "definition": "Embodied accountability and vulnerability of authorship: being personally answerable for claims.",
+      "definition": "A learner-facing dimension: embodied accountability and vulnerability of authorship, including being personally answerable for claims.",
       "examples": ["oral defense", "authorial stance", "revision grounded in personal investment"]
     },
     {
       "id": "infrastructural",
       "label": "Infrastructural Friction (The System)",
-      "definition": "Policy, assessment, and professional learning conditions enabling or constraining the other dimensions.",
+      "definition": "The institutional condition of possibility for the learner-facing dimensions: policy, assessment, leadership, governance, and professional learning conditions that enable or constrain noetic, rhetorical, and existential friction.",
       "examples": ["AI policy that names productive struggle", "assessment norms evaluating process", "professional development for friction-preserving pedagogy"]
     }
   ],
@@ -149,39 +150,43 @@
       "What theoretical framework can guide educators in preserving the cognitive, rhetorical, and existential conditions necessary for durable learning in an age of generative AI?"
     ],
     "dissertation": {
-      "RQ1": "How do K-12 teachers understand and navigate the friction-reducing affordances of generative AI in academic work?",
-      "RQ2": "What institutional conditions, such as policy, assessment design, professional development, and leadership disposition, enable or constrain friction-preserving pedagogy?",
-      "RQ3": "How can the Pedagogical Friction Framework inform AI policy development in K-12 contexts?",
-      "SRQ": "How do current university students who were in their sophomore, junior, or senior year of high school when generative AI tools became publicly available in late 2022 describe changes in their experiences of cognitive struggle, authorial ownership, and learning processes across the pre-GenAI and post-GenAI transition?",
-      "SAQ": "When agentic AI systems are prompted to respond as educators to the same interview protocol and survey instrument, how do their outputs differ structurally from human practitioner responses, and what do these differences reveal about the nature of pedagogical reasoning necessary for friction-preserving practice?"
+      "RQ1": "How do K-12 classroom-facing educators understand and navigate the friction-reducing affordances of generative AI in academic work, particularly in relation to productive and exclusionary friction?",
+      "RQ2": "What institutional conditions, including policy, assessment design, professional development, leadership disposition, and governance structures, enable or constrain friction-preserving pedagogy across classroom, building, and system levels?",
+      "RQ3": "What framework-aligned policy language, assessment expectations, and instructional-design supports do K-12 educators and school-system leaders describe as necessary to preserve productive friction while reducing exclusionary friction under conditions of generative AI?"
+    },
+    "contextual_support": {
+      "learner_retrospection": "Up to four university-student retrospective accounts provide contextual learner-perspective support; they are not a separate case or a formal secondary research-question strand.",
+      "ai_artifact_comparison": "Any AI-generated artifact comparison remains outside the bounded case and may be retained only as an appendix-level analytical supplement after committee and IRB review."
     }
   },
   "design": {
-    "approach": "Convergent mixed methods (QUAL + quan) embedded in a collective instrumental case study.",
+    "approach": "Qualitative-dominant convergent mixed methods case study in Merriam's interpretive, constructivist tradition.",
+    "case_boundary": "The case is K-12 educator and institutional sensemaking about pedagogical friction under conditions of generative AI, bounded by the phenomenon and the post-generative-AI period rather than by a single site. The Pedagogical Friction Framework is the interpretive lens, not the case boundary.",
     "qualitative": {
       "sources": [
         "Semi-structured interviews",
-        "Card sort protocol",
+        "Scenario card sort protocol",
         "Institutional document analysis"
       ],
       "participants": [
-        "K-12 teachers",
-        "Building administrators",
-        "District leaders",
-        "University students"
+        "Classroom-facing educators",
+        "Building-level administrators",
+        "District or system-level leaders",
+        "University students as contextual learner-perspective support"
       ]
     },
     "quantitative": {
       "sources": [
-        "NCES School Pulse Panel (December 2024 release)",
-        "RAND American Educator Panel (2023-2025)",
-        "Original teacher survey instrument"
+        "NCES School Pulse Panel as bounded structural context",
+        "RAND American Educator Panel and RAND/Gallup data as bounded structural context",
+        "Original educator survey instrument"
       ]
     },
     "integration": [
       "Joint displays by research question",
       "Narrative integration",
-      "Meta-inferences"
+      "Meta-inferences",
+      "Explicit preservation of convergence, divergence, expansion, and silence"
     ]
   },
   "ai_comparison_indicators": [
@@ -190,6 +195,6 @@
     { "id": "institutional_memory", "label": "Institutional memory and relational knowledge" },
     { "id": "uncertainty", "label": "Professional uncertainty and ambivalence" },
     { "id": "dimension_coverage", "label": "Framework dimension coverage" },
-    { "id": "temporal_authenticity", "label": "Temporal authenticity (student-matched)" }
+    { "id": "temporal_authenticity", "label": "Temporal authenticity if learner-perspective prompts are retained" }
   ]
 }
