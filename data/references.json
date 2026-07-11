@@ -7,49 +7,689 @@
     "infrastructural": "Infrastructural (system)"
   },
   "references": [
-    { "id": "ong1982", "author": "Ong, W. J.", "year": 1982, "title": "Orality and literacy: The technologizing of the word", "venue": "Book", "doi": "", "tradition": "media-ecology", "frictions": ["noetic", "rhetorical", "existential"], "annotation": "Shifts in consciousness across orality and literacy; the spine extended in this dissertation to algorithmic secondary orality and tertiary algorithmicity, and to pedagogical friction.", "verified": true },
-    { "id": "innis1951", "author": "Innis, H. A.", "year": 1951, "title": "The bias of communication", "venue": "Book", "doi": "", "tradition": "canadian-media-theory", "frictions": ["existential", "noetic"], "annotation": "Time- versus space-biased media; motivates reintroducing slowness and durability against frictionless circulation.", "verified": true },
-    { "id": "mcluhan1964", "author": "McLuhan, M.", "year": 1964, "title": "Understanding media: The extensions of man", "venue": "Book", "doi": "", "tradition": "canadian-media-theory", "frictions": ["noetic", "rhetorical"], "annotation": "The medium is the message; the tetrad offers a lens for AI's effects in the classroom.", "verified": true },
-    { "id": "kittler1999", "author": "Kittler, F. A.", "year": 1999, "title": "Gramophone, film, typewriter", "venue": "Book", "doi": "", "tradition": "media-archaeology", "frictions": ["noetic"], "annotation": "Materialist thesis privileging circuits and code over content; cognition shaped by media infrastructure.", "verified": true },
-    { "id": "ernst2013", "author": "Ernst, W.", "year": 2013, "title": "Digital memory and the archive", "venue": "Book", "doi": "", "tradition": "media-archaeology", "frictions": ["noetic"], "annotation": "Media-archaeological account of machine time; frames AI as an epistemic regime, not only a tool.", "verified": true },
-    { "id": "huhtamo2011", "author": "Huhtamo, E.; Parikka, J. (Eds.)", "year": 2011, "title": "Media archaeology: Approaches, applications, and implications", "venue": "Book", "doi": "", "tradition": "media-archaeology", "frictions": ["noetic", "rhetorical"], "annotation": "Historically attuned, materially grounded methods for situating AI within deep time.", "verified": true },
-    { "id": "zielinski2006", "author": "Zielinski, S.", "year": 2006, "title": "Deep time of the media: Toward an archaeology of hearing and seeing by technical means", "venue": "Book", "doi": "", "tradition": "media-archaeology", "frictions": ["noetic"], "annotation": "Variantology and non-linear media histories; situates AI within long genealogies rather than rupture narratives.", "verified": true },
-    { "id": "hayles2012", "author": "Hayles, N. K.", "year": 2012, "title": "How we think: Digital media and contemporary technogenesis", "venue": "Book", "doi": "", "tradition": "media-archaeology", "frictions": ["noetic"], "annotation": "Technogenesis; shifting reading practices and the rise of an algorithmic consciousness.", "verified": true },
-    { "id": "ellul1964", "author": "Ellul, J.", "year": 1964, "title": "The technological society", "venue": "Book", "doi": "", "tradition": "critical-theory-of-technology", "frictions": ["rhetorical", "existential"], "annotation": "The totalizing logic of efficiency clarifies why schooling needs friction to preserve judgment and human ends.", "verified": true },
-    { "id": "feenberg1999", "author": "Feenberg, A.", "year": 1999, "title": "Questioning technology", "venue": "Book", "doi": "", "tradition": "critical-theory-of-technology", "frictions": ["rhetorical"], "annotation": "Critical theory of technology; design encodes values, so friction can act as a democratic intervention.", "verified": true },
-    { "id": "illich1973", "author": "Illich, I.", "year": 1973, "title": "Tools for conviviality", "venue": "Book", "doi": "", "tradition": "critical-theory-of-technology", "frictions": ["existential", "noetic"], "annotation": "Tools that extend autonomy and skill; friction keeps AI augmentative rather than substitutive.", "verified": true },
-    { "id": "postman1992", "author": "Postman, N.", "year": 1992, "title": "Technopoly: The surrender of culture to technology", "venue": "Book", "doi": "", "tradition": "critical-theory-of-technology", "frictions": ["rhetorical"], "annotation": "Warns against ceding cultural authority to technology; preserves space for deliberation.", "verified": true },
-    { "id": "foucault1972", "author": "Foucault, M.", "year": 1972, "title": "The archaeology of knowledge", "venue": "Book", "doi": "", "tradition": "critical-theory-of-technology", "frictions": ["noetic", "rhetorical"], "annotation": "Discursive formations and conditions of possibility; how AI reshapes what counts as knowledge and evidence.", "verified": true },
-    { "id": "stiegler2010", "author": "Stiegler, B.", "year": 2010, "title": "For a new critique of political economy", "venue": "Book", "doi": "", "tradition": "stieglerian", "frictions": ["noetic"], "annotation": "Cognitive proletarianization; the case for reclaiming cognitive craft against externalized memory.", "verified": true },
-    { "id": "papert1980", "author": "Papert, S.", "year": 1980, "title": "Mindstorms: Children, computers, and powerful ideas", "venue": "Book", "doi": "", "tradition": "constructionism", "frictions": ["noetic"], "annotation": "Constructionism: durable learning comes from building and debugging, a counterweight to frictionless answer generation.", "verified": true },
-    { "id": "dewey1938", "author": "Dewey, J.", "year": 1938, "title": "Experience and education", "venue": "Book", "doi": "", "tradition": "learning-sciences-friction", "frictions": ["existential"], "annotation": "Embodied, inquiry-driven learning counters over-mediated instruction.", "verified": true },
-    { "id": "kapur2008", "author": "Kapur, M.", "year": 2008, "title": "Productive failure", "venue": "Cognition and Instruction", "doi": "10.1080/07370000802212669", "tradition": "learning-sciences-friction", "frictions": ["noetic", "rhetorical"], "annotation": "Guided struggle before instruction improves conceptual understanding and transfer; empirical anchor for productive friction.", "verified": true },
-    { "id": "karpicke2008", "author": "Karpicke, J. D.; Roediger, H. L., III", "year": 2008, "title": "The critical importance of retrieval for learning", "venue": "Science", "doi": "10.1126/science.1152408", "tradition": "learning-sciences-friction", "frictions": ["noetic"], "annotation": "Large effects of retrieval practice on delayed recall; the cost of offloading retrieval to AI.", "verified": true },
-    { "id": "pariser2011", "author": "Pariser, E.", "year": 2011, "title": "The filter bubble: What the Internet is hiding from you", "venue": "Book", "doi": "", "tradition": "critical-algorithm-studies", "frictions": ["rhetorical", "noetic"], "annotation": "Personalization and curation logics; the case to diversify inputs and slow judgment. Anchors algorithmic secondary orality.", "verified": true },
-    { "id": "williamson2017", "author": "Williamson, B.", "year": 2017, "title": "Big data in education: The digital future of learning, policy and practice", "venue": "Book", "doi": "", "tradition": "critical-algorithm-studies", "frictions": ["rhetorical", "infrastructural"], "annotation": "Data infrastructures and algorithmic governance; locates friction at the policy level.", "verified": true },
-    { "id": "zuboff2019", "author": "Zuboff, S.", "year": 2019, "title": "The age of surveillance capitalism: The fight for a human future at the new frontier of power", "venue": "Book", "doi": "", "tradition": "surveillance-capitalism", "frictions": ["rhetorical", "infrastructural"], "annotation": "Data extraction and behavioral prediction; curricular and policy frictions to preserve autonomy.", "verified": true },
-    { "id": "varoufakis2023", "author": "Varoufakis, Y.", "year": 2023, "title": "Technofeudalism: What killed capitalism", "venue": "Book", "doi": "", "tradition": "surveillance-capitalism", "frictions": ["rhetorical"], "annotation": "Platform power and rent extraction; friction protects cognitive sovereignty.", "verified": true },
-    { "id": "ortegren2024", "author": "Örtegren, A.", "year": 2024, "title": "Philosophical underpinnings of digital citizenship through a postdigital lens", "venue": "Education and Information Technologies", "doi": "10.1007/s10639-023-11965-5", "tradition": "postdigital", "frictions": ["rhetorical", "noetic"], "annotation": "Recalibrates professional digital competence toward ecological, justice-oriented understandings.", "verified": true },
-    { "id": "meyerhofer2024", "author": "Meyerhofer-Parra, R.; González-Martínez, J.; Peracaula-Bosch, M.", "year": 2024, "title": "Postdigital storytelling: Storytelling (within or across) the digital and transmedia field", "venue": "Postdigital Science and Education", "doi": "10.1007/s42438-024-00476-2", "tradition": "postdigital", "frictions": ["rhetorical", "noetic"], "annotation": "Defines postdigital storytelling and links narrative design to critical pedagogy.", "verified": true },
-    { "id": "macleroy2023", "author": "Macleroy, V.; Chung, Y.", "year": 2023, "title": "How can digital storytelling open up spaces for activist citizenship where young children create stories of hope and resilience across the world?", "venue": "International Journal of Early Childhood", "doi": "10.1007/s13158-023-00371-0", "tradition": "postdigital", "frictions": ["rhetorical", "existential"], "annotation": "Multilingual, justice-oriented filmmaking with 8-year-olds fosters activist citizenship; productive friction in practice.", "verified": true },
-    { "id": "bacalja2022", "author": "Bacalja, A.; Beavis, C.; O'Brien, A.", "year": 2022, "title": "Shifting landscapes of digital literacy", "venue": "The Australian Journal of Language and Literacy", "doi": "10.1007/s44020-022-00019-x", "tradition": "postdigital", "frictions": ["rhetorical", "noetic"], "annotation": "Conceptual critique of skills-first approaches; argues for critical, creative, data-aware literacies amid platformization and AI.", "verified": true },
-    { "id": "kellner2007", "author": "Kellner, D.; Share, J.", "year": 2007, "title": "Critical media literacy, democracy, and the reconstruction of education", "venue": "Policy Futures in Education", "doi": "10.2304/pfie.2007.5.1.59", "tradition": "postdigital", "frictions": ["rhetorical"], "annotation": "Power-aware, justice-oriented media literacy; friction aligned with civic debate.", "verified": true },
-    { "id": "sellami2025", "author": "Sellami, I.; Amin, H.; Ozturk, O.; Zaman, A.; Sever, S. D.; Tok, E.", "year": 2025, "title": "Digital, localised and human-centred design makerspaces", "venue": "Discover Education", "doi": "10.1007/s44217-025-00413-w", "tradition": "postdigital", "frictions": ["existential", "rhetorical"], "annotation": "Mixed-methods evaluation showing gains; cultural localization and SDG alignment.", "verified": true },
-    { "id": "carr2011", "author": "Carr, N. G.", "year": 2011, "title": "The shallows: What the Internet is doing to our brains", "venue": "Book", "doi": "", "tradition": "attention-embodiment", "frictions": ["noetic"], "annotation": "Digital skimming and multitasking undermine deep reading; risks amplified by frictionless AI.", "verified": true },
-    { "id": "wolf2018", "author": "Wolf, M.", "year": 2018, "title": "Reader, come home: The reading brain in a digital world", "venue": "Book", "doi": "", "tradition": "attention-embodiment", "frictions": ["noetic"], "annotation": "Neuroscientific case for deep reading; intentional slowness and structured struggle.", "verified": true },
-    { "id": "haidt2024", "author": "Haidt, J.", "year": 2024, "title": "The anxious generation: How the great rewiring of childhood is causing an epidemic of mental illness", "venue": "Book", "doi": "", "tradition": "attention-embodiment", "frictions": ["noetic", "existential"], "annotation": "Developmental and social evidence: anxiety, attention fragmentation, diminished resilience.", "verified": true },
-    { "id": "rosen2024", "author": "Rosen, C.", "year": 2024, "title": "The extinction of experience: Being human in a disembodied world", "venue": "Book", "doi": "", "tradition": "attention-embodiment", "frictions": ["existential"], "annotation": "Algorithmically curated experiences displace first-hand reality; the case to restore sensory learning.", "verified": true },
-    { "id": "turkle2011", "author": "Turkle, S.", "year": 2011, "title": "Alone together: Why we expect more from technology and less from each other", "venue": "Book", "doi": "", "tradition": "attention-embodiment", "frictions": ["rhetorical"], "annotation": "Relational artifacts and pseudo-sociality; the case for privileging authentic dialogue.", "verified": true },
-    { "id": "virilio2006", "author": "Virilio, P.", "year": 2006, "title": "Speed and politics: An essay on dromology", "venue": "Book", "doi": "", "tradition": "phenomenology", "frictions": ["existential", "noetic"], "annotation": "Speed reorganizes perception and politics; anchor for the speed-depth paradox.", "verified": true },
-    { "id": "selwyn2019", "author": "Selwyn, N.", "year": 2019, "title": "Should robots replace teachers? AI and the future of education", "venue": "Book", "doi": "", "tradition": "genai-scholarship", "frictions": ["rhetorical"], "annotation": "Critical edtech analysis; situates friction within curriculum, governance, and professionalism.", "verified": true },
-    { "id": "connolly2023", "author": "Connolly, C.; O'Brien, E.; O'Ceallaigh, T. J.", "year": 2023, "title": "Ensuring knowledge sustainability in a digital era: Empowering digital transformation through digital educational leadership", "venue": "Technology, Knowledge and Learning", "doi": "10.1007/s10758-023-09707-0", "tradition": "genai-scholarship", "frictions": ["rhetorical", "noetic"], "annotation": "Structural-realist digital educational leadership model; sustainable, equity-focused ecosystems across system levels. Supports infrastructural friction.", "verified": true },
-    { "id": "greene2024", "author": "Greene, J. A.; Crompton, H.", "year": 2024, "title": "Synthesizing definitions of digital literacy for the Web 3.0", "venue": "TechTrends", "doi": "10.1007/s11528-024-01015-3", "tradition": "genai-scholarship", "frictions": ["noetic", "rhetorical"], "annotation": "Systematic review yielding a context-sensitive digital literacy definition for AI and decentralized environments.", "verified": true },
-    { "id": "an2025", "author": "An, Y.; James, S.", "year": 2025, "title": "Generative AI integration in K-12 settings: Teachers' perceptions and levels of integration", "venue": "TechTrends", "doi": "10.1007/s11528-025-01114-9", "tradition": "genai-scholarship", "frictions": ["rhetorical", "noetic"], "annotation": "SAMR-framed interviews map six GenAI use cases; most use remains at Augmentation. Directly relevant to RQ1 and PD design.", "verified": true },
-    { "id": "hu2025", "author": "Hu, W.; Gong, R.; Wu, S.; Li, Y.", "year": 2025, "title": "A conversational agent based on a contingent teaching model to support collaborative learning activities", "venue": "Educational Technology Research and Development", "doi": "10.1007/s11423-025-10526-6", "tradition": "genai-scholarship", "frictions": ["noetic", "rhetorical"], "annotation": "Randomized controlled study of CollaBot shows performance gains and nuanced perceptions of AI scaffolding.", "verified": true },
-    { "id": "wiley2025", "author": "Wiley, D.", "year": 2025, "title": "Asking a more productive question about AI and assessment", "venue": "TechTrends", "doi": "10.1007/s11528-025-01118-5", "tradition": "genai-scholarship", "frictions": ["rhetorical", "noetic"], "annotation": "Editorial reframing evidence quality versus evaluative effort; redesign over prohibition. Supports the productive-friction assessment argument.", "verified": true },
-    { "id": "evmenova2024", "author": "Evmenova, A. S.; Borup, J.; Shin, J. K.", "year": 2024, "title": "Harnessing the power of generative AI to support ALL learners", "venue": "TechTrends", "doi": "10.1007/s11528-024-00966-x", "tradition": "genai-scholarship", "frictions": ["rhetorical", "noetic"], "annotation": "43% of teachers reported ChatGPT will help make instruction more accessible for all learners; links GenAI to Universal Design for Learning. Relevant to the productive-versus-exclusionary friction distinction.", "verified": true },
-    { "id": "memon2025", "author": "Memon, T. D.; Kwan, P.", "year": 2025, "title": "A collaborative model for integrating teacher and GenAI into future education", "venue": "TechTrends", "doi": "10.1007/s11528-025-01105-w", "tradition": "genai-scholarship", "frictions": ["rhetorical", "noetic"], "annotation": "Proposes a teacher-plus-GenAI collaborative model and reviews three real-world case studies.", "verified": true },
-    { "id": "yusuf2025", "author": "Yusuf, H.; Money, A.; Daylamani-Zad, D.", "year": 2025, "title": "Pedagogical AI conversational agents in higher education: A conceptual framework and survey of the state of the art", "venue": "Educational Technology Research and Development", "doi": "10.1007/s11423-025-10447-4", "tradition": "genai-scholarship", "frictions": ["noetic", "rhetorical"], "annotation": "Thematic template analysis of 92 studies; framework spanning pastoral, instructional, and cognitive purposes.", "verified": true },
-    { "id": "martin2025", "author": "Martin, F.; Kim, S.; Bolliger, D. U.; DeLarm, J.; et al.", "year": 2025, "title": "Assessment types, strategies, and feedback in online higher education courses in the age of artificial intelligence", "venue": "TechTrends", "doi": "10.1007/s11528-025-01115-8", "tradition": "genai-scholarship", "frictions": ["rhetorical", "noetic"], "annotation": "Instructional designers rated case-study analysis and e-portfolios most effective; exams least effective. Evidence for friction-preserving assessment design.", "verified": true }
+    {
+      "id": "ong1982",
+      "author": "Ong, W. J.",
+      "year": 1982,
+      "title": "Orality and literacy: The technologizing of the word",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "media-ecology",
+      "frictions": [
+        "noetic",
+        "rhetorical",
+        "existential"
+      ],
+      "annotation": "Shifts in consciousness across orality and literacy; the spine extended in this dissertation to algorithmic secondary orality and tertiary algorithmicity, and to pedagogical friction.",
+      "verified": true
+    },
+    {
+      "id": "innis1951",
+      "author": "Innis, H. A.",
+      "year": 1951,
+      "title": "The bias of communication",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "canadian-media-theory",
+      "frictions": [
+        "existential",
+        "noetic"
+      ],
+      "annotation": "Time- versus space-biased media; motivates reintroducing slowness and durability against frictionless circulation.",
+      "verified": true
+    },
+    {
+      "id": "mcluhan1964",
+      "author": "McLuhan, M.",
+      "year": 1964,
+      "title": "Understanding media: The extensions of man",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "canadian-media-theory",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "annotation": "The medium is the message; the tetrad offers a lens for AI's effects in the classroom.",
+      "verified": true
+    },
+    {
+      "id": "kittler1999",
+      "author": "Kittler, F. A.",
+      "year": 1999,
+      "title": "Gramophone, film, typewriter",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "media-archaeology",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Materialist thesis privileging circuits and code over content; cognition shaped by media infrastructure.",
+      "verified": true
+    },
+    {
+      "id": "ernst2013",
+      "author": "Ernst, W.",
+      "year": 2013,
+      "title": "Digital memory and the archive",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "media-archaeology",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Media-archaeological account of machine time; frames AI as an epistemic regime, not only a tool.",
+      "verified": true
+    },
+    {
+      "id": "huhtamo2011",
+      "author": "Huhtamo, E.; Parikka, J. (Eds.)",
+      "year": 2011,
+      "title": "Media archaeology: Approaches, applications, and implications",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "media-archaeology",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "annotation": "Historically attuned, materially grounded methods for situating AI within deep time.",
+      "verified": true
+    },
+    {
+      "id": "zielinski2006",
+      "author": "Zielinski, S.",
+      "year": 2006,
+      "title": "Deep time of the media: Toward an archaeology of hearing and seeing by technical means",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "media-archaeology",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Variantology and non-linear media histories; situates AI within long genealogies rather than rupture narratives.",
+      "verified": true
+    },
+    {
+      "id": "hayles2012",
+      "author": "Hayles, N. K.",
+      "year": 2012,
+      "title": "How we think: Digital media and contemporary technogenesis",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "media-archaeology",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Technogenesis; shifting reading practices and the rise of an algorithmic consciousness.",
+      "verified": true
+    },
+    {
+      "id": "ellul1964",
+      "author": "Ellul, J.",
+      "year": 1964,
+      "title": "The technological society",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "critical-theory-of-technology",
+      "frictions": [
+        "rhetorical",
+        "existential"
+      ],
+      "annotation": "The totalizing logic of efficiency clarifies why schooling needs friction to preserve judgment and human ends.",
+      "verified": true
+    },
+    {
+      "id": "feenberg1999",
+      "author": "Feenberg, A.",
+      "year": 1999,
+      "title": "Questioning technology",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "critical-theory-of-technology",
+      "frictions": [
+        "rhetorical"
+      ],
+      "annotation": "Critical theory of technology; design encodes values, so friction can act as a democratic intervention.",
+      "verified": true
+    },
+    {
+      "id": "illich1973",
+      "author": "Illich, I.",
+      "year": 1973,
+      "title": "Tools for conviviality",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "critical-theory-of-technology",
+      "frictions": [
+        "existential",
+        "noetic"
+      ],
+      "annotation": "Tools that extend autonomy and skill; friction keeps AI augmentative rather than substitutive.",
+      "verified": true
+    },
+    {
+      "id": "postman1992",
+      "author": "Postman, N.",
+      "year": 1992,
+      "title": "Technopoly: The surrender of culture to technology",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "critical-theory-of-technology",
+      "frictions": [
+        "rhetorical"
+      ],
+      "annotation": "Warns against ceding cultural authority to technology; preserves space for deliberation.",
+      "verified": true
+    },
+    {
+      "id": "foucault1972",
+      "author": "Foucault, M.",
+      "year": 1972,
+      "title": "The archaeology of knowledge",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "critical-theory-of-technology",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "annotation": "Discursive formations and conditions of possibility; how AI reshapes what counts as knowledge and evidence.",
+      "verified": true
+    },
+    {
+      "id": "stiegler2010",
+      "author": "Stiegler, B.",
+      "year": 2010,
+      "title": "For a new critique of political economy",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "stieglerian",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Cognitive proletarianization; the case for reclaiming cognitive craft against externalized memory.",
+      "verified": true
+    },
+    {
+      "id": "papert1980",
+      "author": "Papert, S.",
+      "year": 1980,
+      "title": "Mindstorms: Children, computers, and powerful ideas",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "constructionism",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Constructionism: durable learning comes from building and debugging, a counterweight to frictionless answer generation.",
+      "verified": true
+    },
+    {
+      "id": "dewey1938",
+      "author": "Dewey, J.",
+      "year": 1938,
+      "title": "Experience and education",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "learning-sciences-friction",
+      "frictions": [
+        "existential"
+      ],
+      "annotation": "Embodied, inquiry-driven learning counters over-mediated instruction.",
+      "verified": true
+    },
+    {
+      "id": "kapur2008",
+      "author": "Kapur, M.",
+      "year": 2008,
+      "title": "Productive failure",
+      "venue": "Cognition and Instruction",
+      "doi": "10.1080/07370000802212669",
+      "tradition": "learning-sciences-friction",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "annotation": "Guided struggle before instruction improves conceptual understanding and transfer; empirical anchor for productive friction.",
+      "verified": true
+    },
+    {
+      "id": "karpicke2008",
+      "author": "Karpicke, J. D.; Roediger, H. L., III",
+      "year": 2008,
+      "title": "The critical importance of retrieval for learning",
+      "venue": "Science",
+      "doi": "10.1126/science.1152408",
+      "tradition": "learning-sciences-friction",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Large effects of retrieval practice on delayed recall; the cost of offloading retrieval to AI.",
+      "verified": true
+    },
+    {
+      "id": "pariser2011",
+      "author": "Pariser, E.",
+      "year": 2011,
+      "title": "The filter bubble: What the Internet is hiding from you",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "critical-algorithm-studies",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Personalization and curation logics; the case to diversify inputs and slow judgment. Anchors algorithmic secondary orality.",
+      "verified": true
+    },
+    {
+      "id": "williamson2017",
+      "author": "Williamson, B.",
+      "year": 2017,
+      "title": "Big data in education: The digital future of learning, policy and practice",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "critical-algorithm-studies",
+      "frictions": [
+        "rhetorical",
+        "infrastructural"
+      ],
+      "annotation": "Data infrastructures and algorithmic governance; locates friction at the policy level.",
+      "verified": true
+    },
+    {
+      "id": "zuboff2019",
+      "author": "Zuboff, S.",
+      "year": 2019,
+      "title": "The age of surveillance capitalism: The fight for a human future at the new frontier of power",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "surveillance-capitalism",
+      "frictions": [
+        "rhetorical",
+        "infrastructural"
+      ],
+      "annotation": "Data extraction and behavioral prediction; curricular and policy frictions to preserve autonomy.",
+      "verified": true
+    },
+    {
+      "id": "varoufakis2023",
+      "author": "Varoufakis, Y.",
+      "year": 2023,
+      "title": "Technofeudalism: What killed capitalism",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "surveillance-capitalism",
+      "frictions": [
+        "rhetorical"
+      ],
+      "annotation": "Platform power and rent extraction; friction protects cognitive sovereignty.",
+      "verified": true
+    },
+    {
+      "id": "ortegren2024",
+      "author": "Örtegren, A.",
+      "year": 2024,
+      "title": "Philosophical underpinnings of digital citizenship through a postdigital lens",
+      "venue": "Education and Information Technologies",
+      "doi": "10.1007/s10639-023-11965-5",
+      "tradition": "postdigital",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Recalibrates professional digital competence toward ecological, justice-oriented understandings.",
+      "verified": true
+    },
+    {
+      "id": "meyerhofer2024",
+      "author": "Meyerhofer-Parra, R.; González-Martínez, J.; Peracaula-Bosch, M.",
+      "year": 2024,
+      "title": "Postdigital storytelling: Storytelling (within or across) the digital and transmedia field",
+      "venue": "Postdigital Science and Education",
+      "doi": "10.1007/s42438-024-00476-2",
+      "tradition": "postdigital",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Defines postdigital storytelling and links narrative design to critical pedagogy.",
+      "verified": true
+    },
+    {
+      "id": "macleroy2023",
+      "author": "Macleroy, V.; Chung, Y.",
+      "year": 2023,
+      "title": "How can digital storytelling open up spaces for activist citizenship where young children create stories of hope and resilience across the world?",
+      "venue": "International Journal of Early Childhood",
+      "doi": "10.1007/s13158-023-00371-0",
+      "tradition": "postdigital",
+      "frictions": [
+        "rhetorical",
+        "existential"
+      ],
+      "annotation": "Multilingual, justice-oriented filmmaking with 8-year-olds fosters activist citizenship; productive friction in practice.",
+      "verified": true
+    },
+    {
+      "id": "bacalja2022",
+      "author": "Bacalja, A.; Beavis, C.; O'Brien, A.",
+      "year": 2022,
+      "title": "Shifting landscapes of digital literacy",
+      "venue": "The Australian Journal of Language and Literacy",
+      "doi": "10.1007/s44020-022-00019-x",
+      "tradition": "postdigital",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Conceptual critique of skills-first approaches; argues for critical, creative, data-aware literacies amid platformization and AI.",
+      "verified": true
+    },
+    {
+      "id": "kellner2007",
+      "author": "Kellner, D.; Share, J.",
+      "year": 2007,
+      "title": "Critical media literacy, democracy, and the reconstruction of education",
+      "venue": "Policy Futures in Education",
+      "doi": "10.2304/pfie.2007.5.1.59",
+      "tradition": "postdigital",
+      "frictions": [
+        "rhetorical"
+      ],
+      "annotation": "Power-aware, justice-oriented media literacy; friction aligned with civic debate.",
+      "verified": true
+    },
+    {
+      "id": "sellami2025",
+      "author": "Sellami, I.; Amin, H.; Ozturk, O.; Zaman, A.; Sever, S. D.; Tok, E.",
+      "year": 2025,
+      "title": "Digital, localised and human-centred design makerspaces",
+      "venue": "Discover Education",
+      "doi": "10.1007/s44217-025-00413-w",
+      "tradition": "postdigital",
+      "frictions": [
+        "existential",
+        "rhetorical"
+      ],
+      "annotation": "Mixed-methods evaluation showing gains; cultural localization and SDG alignment.",
+      "verified": true
+    },
+    {
+      "id": "carr2011",
+      "author": "Carr, N. G.",
+      "year": 2011,
+      "title": "The shallows: What the Internet is doing to our brains",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "attention-embodiment",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Digital skimming and multitasking undermine deep reading; risks amplified by frictionless AI.",
+      "verified": true
+    },
+    {
+      "id": "wolf2018",
+      "author": "Wolf, M.",
+      "year": 2018,
+      "title": "Reader, come home: The reading brain in a digital world",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "attention-embodiment",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Neuroscientific case for deep reading; intentional slowness and structured struggle.",
+      "verified": true
+    },
+    {
+      "id": "haidt2024",
+      "author": "Haidt, J.",
+      "year": 2024,
+      "title": "The anxious generation: How the great rewiring of childhood is causing an epidemic of mental illness",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "attention-embodiment",
+      "frictions": [
+        "noetic",
+        "existential"
+      ],
+      "annotation": "Developmental and social evidence: anxiety, attention fragmentation, diminished resilience.",
+      "verified": true
+    },
+    {
+      "id": "rosen2024",
+      "author": "Rosen, C.",
+      "year": 2024,
+      "title": "The extinction of experience: Being human in a disembodied world",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "attention-embodiment",
+      "frictions": [
+        "existential"
+      ],
+      "annotation": "Algorithmically curated experiences displace first-hand reality; the case to restore sensory learning.",
+      "verified": true
+    },
+    {
+      "id": "turkle2011",
+      "author": "Turkle, S.",
+      "year": 2011,
+      "title": "Alone together: Why we expect more from technology and less from each other",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "attention-embodiment",
+      "frictions": [
+        "rhetorical"
+      ],
+      "annotation": "Relational artifacts and pseudo-sociality; the case for privileging authentic dialogue.",
+      "verified": true
+    },
+    {
+      "id": "virilio2006",
+      "author": "Virilio, P.",
+      "year": 2006,
+      "title": "Speed and politics: An essay on dromology",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "phenomenology",
+      "frictions": [
+        "existential",
+        "noetic"
+      ],
+      "annotation": "Speed reorganizes perception and politics; anchor for the speed-depth paradox.",
+      "verified": true
+    },
+    {
+      "id": "selwyn2019",
+      "author": "Selwyn, N.",
+      "year": 2019,
+      "title": "Should robots replace teachers? AI and the future of education",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "rhetorical"
+      ],
+      "annotation": "Critical edtech analysis; situates friction within curriculum, governance, and professionalism.",
+      "verified": true
+    },
+    {
+      "id": "connolly2023",
+      "author": "Connolly, C.; O'Brien, E.; O'Ceallaigh, T. J.",
+      "year": 2023,
+      "title": "Ensuring knowledge sustainability in a digital era: Empowering digital transformation through digital educational leadership",
+      "venue": "Technology, Knowledge and Learning",
+      "doi": "10.1007/s10758-023-09707-0",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Structural-realist digital educational leadership model; sustainable, equity-focused ecosystems across system levels. Supports infrastructural friction.",
+      "verified": true
+    },
+    {
+      "id": "greene2024",
+      "author": "Greene, J. A.; Crompton, H.",
+      "year": 2024,
+      "title": "Synthesizing definitions of digital literacy for the Web 3.0",
+      "venue": "TechTrends",
+      "doi": "10.1007/s11528-024-01015-3",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "annotation": "Systematic review yielding a context-sensitive digital literacy definition for AI and decentralized environments.",
+      "verified": true
+    },
+    {
+      "id": "an2025",
+      "author": "An, Y.; James, S.",
+      "year": 2025,
+      "title": "Generative AI integration in K-12 settings: Teachers' perceptions and levels of integration",
+      "venue": "TechTrends",
+      "doi": "10.1007/s11528-025-01114-9",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "SAMR-framed interviews map six GenAI use cases; most use remains at Augmentation. Directly relevant to RQ1 and PD design.",
+      "verified": true
+    },
+    {
+      "id": "hu2025",
+      "author": "Hu, W.; Gong, R.; Wu, S.; Li, Y.",
+      "year": 2025,
+      "title": "A conversational agent based on a contingent teaching model to support collaborative learning activities",
+      "venue": "Educational Technology Research and Development",
+      "doi": "10.1007/s11423-025-10526-6",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "annotation": "Randomized controlled study of CollaBot shows performance gains and nuanced perceptions of AI scaffolding.",
+      "verified": true
+    },
+    {
+      "id": "wiley2025",
+      "author": "Wiley, D.",
+      "year": 2025,
+      "title": "Asking a more productive question about AI and assessment",
+      "venue": "TechTrends",
+      "doi": "10.1007/s11528-025-01118-5",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Editorial reframing evidence quality versus evaluative effort; redesign over prohibition. Supports the productive-friction assessment argument.",
+      "verified": true
+    },
+    {
+      "id": "evmenova2024",
+      "author": "Evmenova, A. S.; Borup, J.; Shin, J. K.",
+      "year": 2024,
+      "title": "Harnessing the power of generative AI to support ALL learners",
+      "venue": "TechTrends",
+      "doi": "10.1007/s11528-024-00966-x",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "43% of teachers reported ChatGPT will help make instruction more accessible for all learners; links GenAI to Universal Design for Learning. Relevant to the productive-versus-exclusionary friction distinction.",
+      "verified": true
+    },
+    {
+      "id": "memon2025",
+      "author": "Memon, T. D.; Kwan, P.",
+      "year": 2025,
+      "title": "A collaborative model for integrating teacher and GenAI into future education",
+      "venue": "TechTrends",
+      "doi": "10.1007/s11528-025-01105-w",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Proposes a teacher-plus-GenAI collaborative model and reviews three real-world case studies.",
+      "verified": true
+    },
+    {
+      "id": "yusuf2025",
+      "author": "Yusuf, H.; Money, A.; Daylamani-Zad, D.",
+      "year": 2025,
+      "title": "Pedagogical AI conversational agents in higher education: A conceptual framework and survey of the state of the art",
+      "venue": "Educational Technology Research and Development",
+      "doi": "10.1007/s11423-025-10447-4",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "annotation": "Thematic template analysis of 92 studies; framework spanning pastoral, instructional, and cognitive purposes.",
+      "verified": true
+    },
+    {
+      "id": "martin2025",
+      "author": "Martin, F.; Kim, S.; Bolliger, D. U.; DeLarm, J.; et al.",
+      "year": 2025,
+      "title": "Assessment types, strategies, and feedback in online higher education courses in the age of artificial intelligence",
+      "venue": "TechTrends",
+      "doi": "10.1007/s11528-025-01115-8",
+      "tradition": "genai-scholarship",
+      "frictions": [
+        "rhetorical",
+        "noetic"
+      ],
+      "annotation": "Instructional designers rated case-study analysis and e-portfolios most effective; exams least effective. Evidence for friction-preserving assessment design.",
+      "verified": true
+    },
+    {
+      "id": "merriam1998",
+      "author": "Merriam, S. B.",
+      "year": 1998,
+      "title": "Qualitative research and case study applications in education",
+      "venue": "Book",
+      "doi": "",
+      "tradition": "interpretive-case-study",
+      "frictions": [],
+      "annotation": "The dissertation's methodological anchor: the bounded, interpretive, constructivist case study through which K-12 educator and institutional sensemaking about pedagogical friction is examined.",
+      "verified": true
+    },
+    {
+      "id": "bjork2011",
+      "author": "Bjork, E. L.; Bjork, R. A.",
+      "year": 2011,
+      "title": "Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning",
+      "venue": "Book chapter (Psychology and the Real World)",
+      "doi": "",
+      "tradition": "learning-sciences-friction",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Desirable difficulties: conditions that slow performance during practice strengthen durable retention and transfer - the felt fluency AI provides is precisely the poor proxy for learning the framework names.",
+      "verified": true
+    },
+    {
+      "id": "kapur2016",
+      "author": "Kapur, M.",
+      "year": 2016,
+      "title": "Examining productive failure, productive success, unproductive failure, and unproductive success in learning",
+      "venue": "Educational Psychologist",
+      "doi": "10.1080/00461520.2016.1155457",
+      "tradition": "learning-sciences-friction",
+      "frictions": [
+        "noetic"
+      ],
+      "annotation": "Names the quadrant the dissertation calls unproductive success: polished performance without the learning it is supposed to evidence.",
+      "verified": true
+    }
   ]
 }

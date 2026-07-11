@@ -6,143 +6,347 @@
       "name": "Phenomenology and the Lifeworld",
       "originYear": 1936,
       "era": "1936 to present",
-      "thinkers": ["Edmund Husserl", "Paul Virilio"],
+      "thinkers": [
+        "Edmund Husserl",
+        "Paul Virilio"
+      ],
       "contribution": "Names the crisis that follows when formalized systems detach from lived, first-person experience. Grounds the dissertation's concept of existential abstraction.",
-      "frictions": ["existential", "noetic"],
-      "stages": ["tertiary_algorithmicity"],
-      "refs": ["virilio2006"]
+      "frictions": [
+        "existential",
+        "noetic"
+      ],
+      "stages": [
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "virilio2006"
+      ]
     },
     {
       "id": "learning-sciences-friction",
       "name": "Learning Sciences of Productive Struggle",
       "originYear": 1938,
       "era": "1938 to present",
-      "thinkers": ["John Dewey", "Manu Kapur", "Jeffrey Karpicke", "Henry Roediger"],
+      "thinkers": [
+        "John Dewey",
+        "Manu Kapur",
+        "Jeffrey Karpicke",
+        "Henry Roediger",
+        "Elizabeth Bjork",
+        "Robert Bjork"
+      ],
       "contribution": "Supplies the empirical engine: desirable difficulty, productive failure, and retrieval practice show that durable learning requires the very effort that frictionless AI removes.",
-      "frictions": ["noetic", "rhetorical"],
-      "stages": ["literacy"],
-      "refs": ["dewey1938", "kapur2008", "karpicke2008"]
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "stages": [
+        "literacy"
+      ],
+      "refs": [
+        "dewey1938",
+        "kapur2008",
+        "karpicke2008",
+        "bjork2011",
+        "kapur2016"
+      ]
     },
     {
       "id": "canadian-media-theory",
       "name": "Canadian Media Theory",
       "originYear": 1951,
       "era": "1951 to 1980",
-      "thinkers": ["Harold Innis", "Marshall McLuhan"],
+      "thinkers": [
+        "Harold Innis",
+        "Marshall McLuhan"
+      ],
       "contribution": "Establishes that media carry biases of time and space and that the medium reshapes perception. The upstream source for media ecology and for reading AI as an environment, not a tool.",
-      "frictions": ["noetic", "rhetorical"],
-      "stages": ["secondary_orality"],
-      "refs": ["innis1951", "mcluhan1964"]
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "stages": [
+        "secondary_orality"
+      ],
+      "refs": [
+        "innis1951",
+        "mcluhan1964"
+      ]
     },
     {
       "id": "critical-theory-of-technology",
       "name": "Critical Theory of Technology",
       "originYear": 1964,
       "era": "1964 to present",
-      "thinkers": ["Jacques Ellul", "Ivan Illich", "Neil Postman", "Andrew Feenberg", "Michel Foucault"],
+      "thinkers": [
+        "Jacques Ellul",
+        "Ivan Illich",
+        "Neil Postman",
+        "Andrew Feenberg",
+        "Michel Foucault"
+      ],
       "contribution": "Argues that technical systems encode values and tend toward efficiency at the expense of judgment. Frames pedagogical friction as a deliberate, democratic intervention.",
-      "frictions": ["rhetorical", "existential"],
-      "stages": ["secondary_orality", "algorithmic_secondary_orality"],
-      "refs": ["ellul1964", "illich1973", "postman1992", "feenberg1999", "foucault1972"]
+      "frictions": [
+        "rhetorical",
+        "existential"
+      ],
+      "stages": [
+        "secondary_orality",
+        "algorithmic_secondary_orality"
+      ],
+      "refs": [
+        "ellul1964",
+        "illich1973",
+        "postman1992",
+        "feenberg1999",
+        "foucault1972"
+      ]
     },
     {
       "id": "constructionism",
       "name": "Constructionism",
       "originYear": 1980,
       "era": "1980 to present",
-      "thinkers": ["Seymour Papert"],
+      "thinkers": [
+        "Seymour Papert"
+      ],
       "contribution": "Holds that powerful ideas are built through making and debugging. A direct counterweight to answer-generation: the struggle is where the learning lives.",
-      "frictions": ["noetic"],
-      "stages": ["literacy"],
-      "refs": ["papert1980"]
+      "frictions": [
+        "noetic"
+      ],
+      "stages": [
+        "literacy"
+      ],
+      "refs": [
+        "papert1980"
+      ]
     },
     {
       "id": "media-ecology",
       "name": "Media Ecology (Ong)",
       "originYear": 1982,
       "era": "1982 to present",
-      "thinkers": ["Walter J. Ong"],
+      "thinkers": [
+        "Walter J. Ong"
+      ],
       "contribution": "The conceptual spine. Ong's account of how writing and print restructure consciousness is extended here past secondary orality into algorithmic secondary orality and tertiary algorithmicity.",
-      "frictions": ["noetic", "rhetorical", "existential"],
-      "stages": ["primary_orality", "literacy", "secondary_orality", "algorithmic_secondary_orality", "tertiary_algorithmicity"],
-      "refs": ["ong1982"]
+      "frictions": [
+        "noetic",
+        "rhetorical",
+        "existential"
+      ],
+      "stages": [
+        "primary_orality",
+        "literacy",
+        "secondary_orality",
+        "algorithmic_secondary_orality",
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "ong1982"
+      ]
     },
     {
       "id": "media-archaeology",
       "name": "Media Archaeology",
       "originYear": 1999,
       "era": "1999 to present",
-      "thinkers": ["Friedrich Kittler", "Wolfgang Ernst", "Erkki Huhtamo", "Jussi Parikka", "Siegfried Zielinski", "N. Katherine Hayles"],
+      "thinkers": [
+        "Friedrich Kittler",
+        "Wolfgang Ernst",
+        "Erkki Huhtamo",
+        "Jussi Parikka",
+        "Siegfried Zielinski",
+        "N. Katherine Hayles"
+      ],
       "contribution": "Reads media materially and across deep time, privileging circuits and code over content. Situates AI within long genealogies rather than as a clean rupture.",
-      "frictions": ["noetic"],
-      "stages": ["algorithmic_secondary_orality"],
-      "refs": ["kittler1999", "ernst2013", "huhtamo2011", "zielinski2006", "hayles2012"]
+      "frictions": [
+        "noetic"
+      ],
+      "stages": [
+        "algorithmic_secondary_orality"
+      ],
+      "refs": [
+        "kittler1999",
+        "ernst2013",
+        "huhtamo2011",
+        "zielinski2006",
+        "hayles2012"
+      ]
     },
     {
       "id": "stieglerian",
       "name": "Stieglerian Critique",
       "originYear": 2010,
       "era": "2010 to present",
-      "thinkers": ["Bernard Stiegler"],
+      "thinkers": [
+        "Bernard Stiegler"
+      ],
       "contribution": "Diagnoses cognitive proletarianization: the externalization of memory and skill to systems. The case for reclaiming cognitive craft.",
-      "frictions": ["noetic"],
-      "stages": ["algorithmic_secondary_orality", "tertiary_algorithmicity"],
-      "refs": ["stiegler2010"]
+      "frictions": [
+        "noetic"
+      ],
+      "stages": [
+        "algorithmic_secondary_orality",
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "stiegler2010"
+      ]
     },
     {
       "id": "critical-algorithm-studies",
       "name": "Critical Algorithm Studies",
       "originYear": 2011,
       "era": "2011 to present",
-      "thinkers": ["Eli Pariser", "Ben Williamson"],
+      "thinkers": [
+        "Eli Pariser",
+        "Ben Williamson"
+      ],
       "contribution": "Shows how curation and personalization quietly govern what reaches whom. Anchors algorithmic secondary orality and the infrastructural dimension of friction.",
-      "frictions": ["rhetorical", "infrastructural"],
-      "stages": ["algorithmic_secondary_orality"],
-      "refs": ["pariser2011", "williamson2017"]
+      "frictions": [
+        "rhetorical",
+        "infrastructural"
+      ],
+      "stages": [
+        "algorithmic_secondary_orality"
+      ],
+      "refs": [
+        "pariser2011",
+        "williamson2017"
+      ]
     },
     {
       "id": "attention-embodiment",
       "name": "Attention, Deep Reading, and Embodiment",
       "originYear": 2011,
       "era": "2011 to present",
-      "thinkers": ["Nicholas Carr", "Maryanne Wolf", "Jonathan Haidt", "Christine Rosen", "Sherry Turkle"],
+      "thinkers": [
+        "Nicholas Carr",
+        "Maryanne Wolf",
+        "Jonathan Haidt",
+        "Christine Rosen",
+        "Sherry Turkle"
+      ],
       "contribution": "Documents how digital and algorithmic environments erode deep reading, attention, resilience, and authentic dialogue. The human stakes of frictionless production.",
-      "frictions": ["noetic", "existential"],
-      "stages": ["algorithmic_secondary_orality", "tertiary_algorithmicity"],
-      "refs": ["carr2011", "wolf2018", "haidt2024", "rosen2024", "turkle2011"]
+      "frictions": [
+        "noetic",
+        "existential"
+      ],
+      "stages": [
+        "algorithmic_secondary_orality",
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "carr2011",
+        "wolf2018",
+        "haidt2024",
+        "rosen2024",
+        "turkle2011"
+      ]
     },
     {
       "id": "surveillance-capitalism",
       "name": "Surveillance Capitalism and Platform Power",
       "originYear": 2019,
       "era": "2019 to present",
-      "thinkers": ["Shoshana Zuboff", "Yanis Varoufakis"],
+      "thinkers": [
+        "Shoshana Zuboff",
+        "Yanis Varoufakis"
+      ],
       "contribution": "Names the political economy behind algorithmic systems: data extraction, behavioral prediction, and rent. Locates friction as the defense of cognitive sovereignty.",
-      "frictions": ["rhetorical", "infrastructural"],
-      "stages": ["tertiary_algorithmicity"],
-      "refs": ["zuboff2019", "varoufakis2023"]
+      "frictions": [
+        "rhetorical",
+        "infrastructural"
+      ],
+      "stages": [
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "zuboff2019",
+        "varoufakis2023"
+      ]
     },
     {
       "id": "postdigital",
       "name": "Postdigital and Critical Literacies",
       "originYear": 2022,
       "era": "2022 to present",
-      "thinkers": ["Aleesha Bacalja", "Anders Örtegren", "Douglas Kellner", "Jeff Share", "Vicky Macleroy"],
+      "thinkers": [
+        "Aleesha Bacalja",
+        "Anders Örtegren",
+        "Douglas Kellner",
+        "Jeff Share",
+        "Vicky Macleroy"
+      ],
       "contribution": "Treats the analog and digital as entangled and reframes literacy as critical, creative, and justice-oriented. Supports the productive-versus-exclusionary friction distinction.",
-      "frictions": ["rhetorical", "noetic", "existential"],
-      "stages": ["tertiary_algorithmicity"],
-      "refs": ["ortegren2024", "meyerhofer2024", "macleroy2023", "bacalja2022", "kellner2007", "sellami2025"]
+      "frictions": [
+        "rhetorical",
+        "noetic",
+        "existential"
+      ],
+      "stages": [
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "ortegren2024",
+        "meyerhofer2024",
+        "macleroy2023",
+        "bacalja2022",
+        "kellner2007",
+        "sellami2025"
+      ]
     },
     {
       "id": "genai-scholarship",
       "name": "Generative AI in Education (Current Scholarship)",
       "originYear": 2024,
       "era": "2024 to present",
-      "thinkers": ["An & James", "Greene & Crompton", "Hu et al.", "David Wiley", "Neil Selwyn", "Connolly et al."],
+      "thinkers": [
+        "An & James",
+        "Greene & Crompton",
+        "Hu et al.",
+        "David Wiley",
+        "Neil Selwyn",
+        "Connolly et al."
+      ],
       "contribution": "The contemporary empirical base: teacher perceptions, integration levels, assessment redesign, and AI scaffolding. The terrain the dissertation studies directly.",
-      "frictions": ["rhetorical", "noetic", "infrastructural"],
-      "stages": ["tertiary_algorithmicity"],
-      "refs": ["an2025", "greene2024", "hu2025", "wiley2025", "selwyn2019", "connolly2023", "evmenova2024", "memon2025", "yusuf2025", "martin2025"]
+      "frictions": [
+        "rhetorical",
+        "noetic",
+        "infrastructural"
+      ],
+      "stages": [
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "an2025",
+        "greene2024",
+        "hu2025",
+        "wiley2025",
+        "selwyn2019",
+        "connolly2023",
+        "evmenova2024",
+        "memon2025",
+        "yusuf2025",
+        "martin2025"
+      ]
+    },
+    {
+      "id": "interpretive-case-study",
+      "name": "Interpretive Qualitative Case Study",
+      "originYear": 1995,
+      "era": "1995 to present",
+      "thinkers": [
+        "Sharan B. Merriam",
+        "Robert E. Stake"
+      ],
+      "contribution": "Supplies the methodological anchor: a bounded, interpretive, constructivist case study in Merriam's tradition, within which the qualitative-dominant convergent mixed methods design examines educator and institutional sensemaking.",
+      "frictions": [],
+      "stages": [],
+      "refs": [
+        "merriam1998"
+      ]
     }
   ]
 }
