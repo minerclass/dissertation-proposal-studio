@@ -122,12 +122,6 @@
     });
     d.appendChild(works);
 
-    if (t.driveUrl) {
-      var a = el("a", "t-drive btn ghost");
-      a.href = t.driveUrl; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = "Open reading folder in Drive";
-      d.appendChild(a);
-    }
   }
   function frictionLabel(f) {
     return { noetic: "Noetic", rhetorical: "Rhetorical", existential: "Existential", infrastructural: "Infrastructural" }[f] || f;
@@ -211,8 +205,7 @@
       var li = el("li", "ref-card");
       var doi = r.doi ? '<a class="doi" href="https://doi.org/' + esc(r.doi) + '" target="_blank" rel="noopener">DOI</a>' : "";
       var trd = state.traditions.filter(function (x) { return x.id === r.tradition; })[0];
-      var drive = trd && trd.driveUrl ? '<a class="drive" href="' + esc(trd.driveUrl) + '" target="_blank" rel="noopener">Drive folder</a>' : "";
-      var flag = r.verified ? "" : '<span class="flag">needs verification</span>';
+      var flag = "";
       var frics = (r.frictions || []).map(function (f) {
         return '<span class="fchip ' + f + '">' + esc(frictionLabel(f)) + "</span>";
       }).join(" ");
@@ -224,7 +217,7 @@
         '<p class="ref-annot">' + esc(r.annotation) + "</p>" +
         '<div class="ref-meta">' +
           '<span class="pill">' + esc(traditionName(r.tradition)) + "</span>" +
-          frics + " " + flag + " " + doi + " " + drive +
+          frics + " " + flag + " " + doi +
         "</div>";
       ul.appendChild(li);
     });
@@ -238,7 +231,7 @@
   ]).then(function (res) {
     state.ideas = res[0];
     state.traditions = res[1].traditions || [];
-    state.references = res[2].references || [];
+    state.references = (res[2].references || []).filter(function (r) { return r.verified !== false; });
     state.references.forEach(function (r) { state.refById[r.id] = r; });
 
     renderHero();
