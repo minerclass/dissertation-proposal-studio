@@ -333,19 +333,20 @@
       ]
     },
     {
-      "id": "interpretive-case-study",
-      "name": "Interpretive Qualitative Case Study",
-      "originYear": 1995,
-      "era": "1995 to present",
+      "id": "constructivist-qualitative-inquiry",
+      "name": "Constructivist Qualitative Inquiry",
+      "originYear": 1985,
+      "era": "1985 to present",
       "thinkers": [
-        "Sharan B. Merriam",
-        "Robert E. Stake"
+        "Yvonna S. Lincoln",
+        "Egon G. Guba",
+        "Michael Crotty"
       ],
-      "contribution": "Supplies the methodological anchor: a bounded, interpretive, constructivist case study in Merriam's tradition, within which the qualitative-dominant convergent mixed methods design examines educator and institutional sensemaking.",
+      "contribution": "Supplies the interpretive stance for understanding participant meaning as situated and co-constructed, with sensemaking connecting ambiguous educational conditions to the cues, frames, accounts, and actions participants describe.",
       "frictions": [],
       "stages": [],
       "refs": [
-        "merriam1998"
+        "crotty1998"
       ]
     }
   ]
