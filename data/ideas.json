@@ -150,18 +150,18 @@
       "What theoretical framework can guide educators in preserving the cognitive, rhetorical, and existential conditions necessary for durable learning in an age of generative AI?"
     ],
     "dissertation": {
-      "RQ1": "How do K-12 classroom-facing educators understand and navigate the friction-reducing affordances of generative AI in academic work, particularly in relation to productive and exclusionary friction?",
-      "RQ2": "What institutional conditions, including policy, assessment design, professional development, leadership disposition, and governance structures, enable or constrain friction-preserving pedagogy across classroom, building, and system levels?",
-      "RQ3": "What framework-aligned policy language, assessment expectations, and instructional-design supports do K-12 educators and school-system leaders describe as necessary to preserve productive friction while reducing exclusionary friction under conditions of generative AI?"
+      "RQ1": "How do classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students make sense of the ways generative AI changes the effort, dialogue, authorship, judgment, and participation involved in teaching and learning?",
+      "RQ2": "How do educators and school-system leaders make sense of and respond to the policy, professional-learning, assessment, access, and governance conditions surrounding generative AI?",
+      "RQ3": "What language, assessment expectations, instructional practices, professional supports, and leadership approaches do participants identify as important for preserving forms of friction that support learning while reducing unnecessary barriers?"
     },
-    "contextual_support": {
-      "learner_retrospection": "Up to four university-student retrospective accounts provide contextual learner-perspective support; they are not a separate case or a formal secondary research-question strand.",
-      "ai_artifact_comparison": "Any AI-generated artifact comparison remains outside the bounded case and may be retained only as an appendix-level analytical supplement after committee and IRB review."
+    "evidence_status": {
+      "adult_university_students": "Adult university students are a participant group whose retrospective accounts provide a learner perspective on teaching and learning under generative AI.",
+      "ai_text_comparison": "AI-generated texts are analyzed as a distinct nonparticipant comparison source within the study and are never treated as evidence about human experience."
     }
   },
   "design": {
-    "approach": "Qualitative-dominant convergent mixed methods case study in Merriam's interpretive, constructivist tradition.",
-    "case_boundary": "The case is K-12 educator and institutional sensemaking about pedagogical friction under conditions of generative AI, bounded by the phenomenon and the post-generative-AI period rather than by a single site. The Pedagogical Friction Framework is the interpretive lens, not the case boundary.",
+    "approach": "Qualitative-dominant convergent mixed methods design grounded in constructivist qualitative inquiry.",
+    "constructivist_stance": "Meaning is treated as situated and co-constructed. The Pedagogical Friction Framework serves as a sensitizing and revisable lens rather than a container for the inquiry.",
     "qualitative": {
       "sources": [
         "Semi-structured interviews",
@@ -172,13 +172,13 @@
         "Classroom-facing educators",
         "Building-level administrators",
         "District or system-level leaders",
-        "University students as contextual learner-perspective support"
+        "Adult university students as a participant group"
       ]
     },
     "quantitative": {
       "sources": [
-        "NCES School Pulse Panel as bounded structural context",
-        "RAND American Educator Panel and RAND/Gallup data as bounded structural context",
+        "NCES School Pulse Panel as structural context",
+        "RAND American Educator Panel and RAND/Gallup data as structural context",
         "Original educator survey instrument"
       ]
     },

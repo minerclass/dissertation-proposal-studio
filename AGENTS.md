@@ -23,7 +23,7 @@ history of the references and argument, and a **private** defense-prep studio.
   existential abstraction**.
 - Framework: **Pedagogical Friction** with four dimensions (noetic/head, rhetorical/room,
   existential/world, infrastructural/system) and the **productive vs. exclusionary** distinction.
-- Design: **qualitative-dominant convergent mixed methods**, **Merriam's interpretive (constructivist) case study**, bounded by the phenomenon rather than a single site. (Not Stake's collective instrumental design, which the current draft rejects; Stake and Yin appear only as contrast lenses.)
+- Design: **qualitative-dominant convergent mixed methods** grounded in **constructivist qualitative inquiry**. Interviews and other open-ended evidence provide the qualitative core. Closed-ended survey items and national datasets provide supporting context. Adult university students are participants, and AI-generated texts remain a distinct nonparticipant evidence source.
 
 ## Data and privacy restrictions
 
