@@ -21,8 +21,8 @@ history of the references and argument, and a **private** defense-prep studio.
   orality**, **tertiary algorithmicity**.
 - Three pressures of tertiary algorithmicity: **noetic displacement, rhetorical saturation,
   existential abstraction**.
-- Framework: **Pedagogical Friction** with four dimensions (noetic/head, rhetorical/room,
-  existential/world, infrastructural/system) and the **productive vs. exclusionary** distinction.
+- Framework: **Pedagogical Friction** with three learner-facing dimensions (noetic/head,
+  rhetorical/room, existential/world), an infrastructural/system conditioning layer, and the **productive vs. exclusionary** distinction.
 - Design: **qualitative-dominant convergent mixed methods** grounded in **constructivist qualitative inquiry**. Interviews and other open-ended evidence provide the qualitative core. Closed-ended survey items and national datasets provide supporting context. Adult university students are participants, and AI-generated texts remain a distinct nonparticipant evidence source.
 
 ## Data and privacy restrictions
