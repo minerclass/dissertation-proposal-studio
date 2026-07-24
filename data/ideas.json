@@ -61,7 +61,7 @@
       "definition": "A condition in which algorithmic systems generate as well as curate symbolic content, so authorship is not necessarily human.",
       "tags": ["generative AI", "authorship", "learning"],
       "key_points": [
-        "Qualitative rupture from distribution to generation.",
+        "Stalder's curatorial algorithmicity is retained and extended from filtering and ranking into symbolic generation at scale.",
         "Oral or literate modality matters less than human vs. algorithmic origination."
       ]
     },
@@ -139,7 +139,7 @@
     {
       "id": "infrastructural",
       "label": "Infrastructural Friction (The System)",
-      "definition": "The institutional condition of possibility for the learner-facing dimensions: policy, assessment, leadership, governance, and professional learning conditions that enable or constrain noetic, rhetorical, and existential friction.",
+      "definition": "The institutional environment is not a neutral backdrop. Its policy, assessment, leadership, governance, and professional-learning conditions actively constrain or enable whether noetic, rhetorical, and existential friction can be sustained; naming this system layer as friction keeps it inside the study's design vocabulary.",
       "examples": ["AI policy that names productive struggle", "assessment norms evaluating process", "professional development for friction-preserving pedagogy"]
     }
   ],
@@ -156,12 +156,13 @@
     },
     "evidence_status": {
       "adult_university_students": "Adult university students are a participant group whose retrospective accounts provide a learner perspective on teaching and learning under generative AI.",
-      "ai_text_comparison": "AI-generated texts are analyzed as a distinct nonparticipant comparison source within the study and are never treated as evidence about human experience."
+      "ai_text_comparison": "AI-generated texts and agentic artifacts are analyzed as a distinct nonparticipant comparison source. At least one bounded, prespecified agentic-artifact task is retained if systems, task count, or repeated runs are scaled, and the artifacts are never treated as evidence about human experience."
     }
   },
   "design": {
     "approach": "Qualitative-dominant convergent mixed methods design grounded in constructivist qualitative inquiry.",
     "constructivist_stance": "Meaning is treated as situated and co-constructed. The Pedagogical Friction Framework serves as a sensitizing and revisable lens rather than a container for the inquiry.",
+    "feasibility": "Role-based practitioner interviews and the educator survey form the analytic core. Retrospective university-student accounts, documents, national datasets, and other comparison elements are scaled first, while at least one bounded agentic-artifact task remains.",
     "qualitative": {
       "sources": [
         "Semi-structured interviews",
@@ -195,6 +196,7 @@
     { "id": "institutional_memory", "label": "Institutional memory and relational knowledge" },
     { "id": "uncertainty", "label": "Professional uncertainty and ambivalence" },
     { "id": "dimension_coverage", "label": "Framework dimension coverage" },
+    { "id": "productive_counter_friction", "label": "Situated judgment or productive counter-friction" },
     { "id": "temporal_authenticity", "label": "Temporal authenticity if learner-perspective prompts are retained" }
   ]
 }

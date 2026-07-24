@@ -23,7 +23,7 @@ history of the references and argument, and a **private** defense-prep studio.
   existential abstraction**.
 - Framework: **Pedagogical Friction** with three learner-facing dimensions (noetic/head,
   rhetorical/room, existential/world), an infrastructural/system conditioning layer, and the **productive vs. exclusionary** distinction.
-- Design: **qualitative-dominant convergent mixed methods** grounded in **constructivist qualitative inquiry**. Interviews and other open-ended evidence provide the qualitative core. Closed-ended survey items and national datasets provide supporting context. Adult university students are participants, and AI-generated texts remain a distinct nonparticipant evidence source.
+- Design: **qualitative-dominant convergent mixed methods** grounded in **constructivist qualitative inquiry**. Role-based practitioner interviews and the educator survey form the analytic core. Adult university students remain participants whose retrospective accounts are supplementary. Documents, national datasets, and AI-generated text and agentic artifacts provide other supplementary or distinct evidence. At least one bounded, prespecified agentic-artifact task remains if other comparison elements are scaled.
 
 ## Data and privacy restrictions
 
