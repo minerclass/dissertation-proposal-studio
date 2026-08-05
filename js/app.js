@@ -37,8 +37,9 @@
     var stats = [
       [state.ideas.stages.length, "media-ecology stages"],
       [state.traditions.length, "intellectual traditions"],
-      [state.references.length, "sources mapped"],
-      [state.ideas.framework_dimensions.length, "friction dimensions"]
+      [(state.ideas.research_questions.dissertation || []).length, "dissertation RQs"],
+      [state.ideas.framework_dimensions.length, "friction dimensions"],
+      [state.references.length, "sources mapped"]
     ];
     var dl = $("#hero-stats");
     dl.innerHTML = "";
@@ -171,6 +172,172 @@
     }
   }
 
+  /* ---------- RESEARCH QUESTIONS ---------- */
+  var currentRqSet = "dissertation";
+  var selectedRqIndex = 0;
+
+  function renderResearchQuestions() {
+    var tabDiss = $("#tab-rq-dissertation");
+    var tabQp = $("#tab-rq-qp");
+    var roleFilter = $("#rq-role-filter");
+    var frictionFilter = $("#rq-friction-filter");
+
+    if (!tabDiss || !tabQp) return;
+
+    tabDiss.addEventListener("click", function () {
+      currentRqSet = "dissertation";
+      selectedRqIndex = 0;
+      tabDiss.classList.add("active");
+      tabDiss.setAttribute("aria-selected", "true");
+      tabQp.classList.remove("active");
+      tabQp.setAttribute("aria-selected", "false");
+      if (roleFilter) roleFilter.style.display = "";
+      updateRqList();
+    });
+
+    tabQp.addEventListener("click", function () {
+      currentRqSet = "qualifying_paper";
+      selectedRqIndex = 0;
+      tabQp.classList.add("active");
+      tabQp.setAttribute("aria-selected", "true");
+      tabDiss.classList.remove("active");
+      tabDiss.setAttribute("aria-selected", "false");
+      if (roleFilter) roleFilter.style.display = "none";
+      updateRqList();
+    });
+
+    if (roleFilter) roleFilter.addEventListener("change", function () { selectedRqIndex = 0; updateRqList(); });
+    if (frictionFilter) frictionFilter.addEventListener("change", function () { selectedRqIndex = 0; updateRqList(); });
+
+    updateRqList();
+  }
+
+  function updateRqList() {
+    var items = (state.ideas.research_questions && state.ideas.research_questions[currentRqSet]) || [];
+    var roleVal = $("#rq-role-filter") ? $("#rq-role-filter").value : "";
+    var fricVal = $("#rq-friction-filter") ? $("#rq-friction-filter").value : "";
+
+    var filtered = items.filter(function (rq) {
+      if (currentRqSet === "dissertation" && roleVal) {
+        if (!rq.role_groups || rq.role_groups.indexOf(roleVal) === -1) return false;
+      }
+      if (fricVal) {
+        if (!rq.frictions || rq.frictions.indexOf(fricVal) === -1) return false;
+      }
+      return true;
+    });
+
+    var container = $("#rq-cards-container");
+    if (!container) return;
+    container.innerHTML = "";
+
+    if (filtered.length === 0) {
+      container.appendChild(el("p", "empty-msg", "No research questions match the selected filters."));
+      var dView = $("#rq-detail-view");
+      if (dView) dView.innerHTML = "";
+      return;
+    }
+
+    if (selectedRqIndex >= filtered.length) selectedRqIndex = 0;
+
+    filtered.forEach(function (rq, idx) {
+      var card = el("div", "rq-card" + (idx === selectedRqIndex ? " active" : ""));
+      card.setAttribute("tabindex", "0");
+      card.setAttribute("role", "button");
+
+      var roleTagsHtml = (rq.role_groups || []).map(function (rg) {
+        var shortRole = rg.split(" ")[0];
+        return '<span class="rq-role-tag">' + esc(shortRole) + '</span>';
+      }).join(" ");
+
+      var fricChipsHtml = (rq.frictions || []).map(function (f) {
+        return '<span class="fchip ' + f + '">' + esc(frictionLabel(f)) + '</span>';
+      }).join(" ");
+
+      card.innerHTML =
+        '<div class="rq-card-header">' +
+          '<span class="rq-badge">' + esc(rq.id) + '</span>' +
+          '<h3 class="rq-card-title">' + esc(rq.title || "Research Question") + '</h3>' +
+        '</div>' +
+        '<blockquote class="rq-question-text">&ldquo;' + esc(rq.question) + '&rdquo;</blockquote>' +
+        '<div class="rq-card-meta">' +
+          '<div class="rq-meta-roles">' + roleTagsHtml + '</div>' +
+          '<div class="rq-meta-frictions">' + fricChipsHtml + '</div>' +
+        '</div>';
+
+      card.addEventListener("click", function () {
+        selectedRqIndex = idx;
+        renderRqCards(filtered);
+        renderRqDetail(rq);
+      });
+
+      container.appendChild(card);
+    });
+
+    renderRqDetail(filtered[selectedRqIndex]);
+  }
+
+  function renderRqCards(filtered) {
+    var cards = document.querySelectorAll(".rq-card");
+    cards.forEach(function (c, idx) {
+      if (idx === selectedRqIndex) c.classList.add("active");
+      else c.classList.remove("active");
+    });
+  }
+
+  function renderRqDetail(rq) {
+    var d = $("#rq-detail-view");
+    if (!d || !rq) { if (d) d.innerHTML = ""; return; }
+
+    var isDiss = currentRqSet === "dissertation";
+
+    var roleChips = (rq.role_groups || []).map(function (r) {
+      return '<span class="role-pill"><i class="fa-solid fa-user-gear"></i> ' + esc(r) + '</span>';
+    }).join(" ");
+
+    var fricChips = (rq.frictions || []).map(function (f) {
+      return '<span class="fchip ' + f + '">' + esc(frictionLabel(f)) + '</span>';
+    }).join(" ");
+
+    var primEv = (rq.primary_evidence || []).map(function (e) {
+      return '<li><i class="fa-solid fa-check-circle" style="color:var(--accent);"></i> ' + esc(e) + '</li>';
+    }).join("");
+
+    var contEv = (rq.contextual_evidence || []).map(function (e) {
+      return '<li><i class="fa-solid fa-database" style="color:var(--accent-2);"></i> ' + esc(e) + '</li>';
+    }).join("");
+
+    var methodSec = isDiss ? (
+      '<div class="rq-method-grid">' +
+        '<div class="rq-method-box">' +
+          '<h4><i class="fa-solid fa-clipboard-user"></i> Primary Bounded-Case Evidence (QUAL)</h4>' +
+          '<ul>' + primEv + '</ul>' +
+        '</div>' +
+        '<div class="rq-method-box">' +
+          '<h4><i class="fa-solid fa-chart-line"></i> Contextual & Structural Support (quan)</h4>' +
+          '<ul>' + contEv + '</ul>' +
+        '</div>' +
+      '</div>' +
+      '<div class="rq-target-box">' +
+        '<h4><i class="fa-solid fa-diagram-project"></i> Methodological Joint Display & Integration Target</h4>' +
+        '<p>' + esc(rq.integration_target || "") + '</p>' +
+      '</div>'
+    ) : "";
+
+    d.innerHTML =
+      '<div class="rq-detail-head">' +
+        '<span class="rq-detail-badge">' + esc(rq.id) + '</span>' +
+        '<h3>' + esc(rq.title) + '</h3>' +
+      '</div>' +
+      '<blockquote class="rq-detail-question">&ldquo;' + esc(rq.question) + '&rdquo;</blockquote>' +
+      (rq.focus ? '<p class="rq-focus"><strong>Analytical Focus:</strong> ' + esc(rq.focus) + '</p>' : '') +
+      '<div class="rq-detail-tags-row">' +
+        '<div><strong>Framework Alignment:</strong> ' + fricChips + '</div>' +
+        (roleChips ? '<div style="margin-top:0.4rem;"><strong>Role Perspectives:</strong> ' + roleChips + '</div>' : '') +
+      '</div>' +
+      methodSec;
+  }
+
   /* ---------- LIBRARY ---------- */
   function renderLibraryControls() {
     var sel = $("#ref-tradition");
@@ -199,32 +366,40 @@
       if (trad && r.tradition !== trad) return false;
       if (fric && (r.frictions || []).indexOf(fric) === -1) return false;
       if (q) {
-        var hay = (r.author + " " + r.title + " " + r.venue + " " + r.annotation).toLowerCase();
+        var hay = [r.citation, r.author, r.title, r.venue, r.annotation]
+          .filter(Boolean).join(" ").toLowerCase();
         if (hay.indexOf(q) === -1) return false;
       }
       return true;
-    }).sort(function (a, b) { return a.author.localeCompare(b.author); });
+    }).sort(function (a, b) {
+      return (a.author || a.citation || "").localeCompare(b.author || b.citation || "");
+    });
 
     $("#ref-count").textContent = matches.length + " of " + state.references.length + " sources";
 
     matches.forEach(function (r) {
       var li = el("li", "ref-card");
-      var doi = r.doi ? '<a class="doi" href="https://doi.org/' + esc(r.doi) + '" target="_blank" rel="noopener">DOI</a>' : "";
+      var sourceUrl = r.doi ? "https://doi.org/" + r.doi : r.url;
+      var sourceLabel = r.doi ? "DOI" : "Source";
+      var source = sourceUrl ? '<a class="doi" href="' + esc(sourceUrl) + '" target="_blank" rel="noopener">' + sourceLabel + "</a>" : "";
       var trd = state.traditions.filter(function (x) { return x.id === r.tradition; })[0];
       var drive = trd && trd.driveUrl ? '<a class="drive" href="' + esc(trd.driveUrl) + '" target="_blank" rel="noopener">Drive folder</a>' : "";
       var flag = r.verified ? "" : '<span class="flag">needs verification</span>';
+      var citation = r.citation || (r.author + " (" + r.year + "). " + r.title + ".");
+      var venue = r.citation || !r.venue ? "" : '<p class="ref-venue">' + esc(r.venue) + "</p>";
+      var annotation = r.annotation ? '<p class="ref-annot">' + esc(r.annotation) + "</p>" : "";
+      var tradition = r.tradition ? '<span class="pill">' + esc(traditionName(r.tradition)) + "</span>" : "";
       var frics = (r.frictions || []).map(function (f) {
         return '<span class="fchip ' + f + '">' + esc(frictionLabel(f)) + "</span>";
       }).join(" ");
       li.innerHTML =
         '<div class="ref-head">' +
-          '<p class="ref-cite">' + esc(r.author) + ' <span class="yr">(' + esc(r.year) + ')</span>. ' + esc(r.title) + ".</p>" +
+          '<p class="ref-cite">' + esc(citation) + "</p>" +
         "</div>" +
-        '<p class="ref-venue">' + esc(r.venue) + "</p>" +
-        '<p class="ref-annot">' + esc(r.annotation) + "</p>" +
+        venue +
+        annotation +
         '<div class="ref-meta">' +
-          '<span class="pill">' + esc(traditionName(r.tradition)) + "</span>" +
-          frics + " " + flag + " " + doi + " " + drive +
+          tradition + frics + " " + flag + " " + source + " " + drive +
         "</div>";
       ul.appendChild(li);
     });
@@ -245,9 +420,9 @@
     renderArc();
     renderTraditions();
     renderFramework();
+    renderResearchQuestions();
     renderLibraryControls();
   }).catch(function (err) {
     showError(err.message + "  Tip: run a local server (python -m http.server) and open http://localhost:8000 rather than opening the file directly.");
-    console.error(err);
   });
 })();

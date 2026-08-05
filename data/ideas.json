@@ -144,15 +144,82 @@
   ],
   "research_questions": {
     "qualifying_paper": [
-      "What does Ong's media ecology make newly visible about algorithmic curation and generative AI as transformations of the communication environment?",
-      "What are the educational consequences when algorithmic systems do more than mediate and actually generate the symbolic environments in which students learn?",
-      "What theoretical framework can guide educators in preserving the cognitive, rhetorical, and existential conditions necessary for durable learning in an age of generative AI?"
+      {
+        "id": "QP1",
+        "title": "Media Ecological Extension",
+        "question": "What does Ong's media ecology make newly visible about algorithmic curation and generative AI as transformations of the communication environment?",
+        "frictions": ["noetic", "rhetorical"]
+      },
+      {
+        "id": "QP2",
+        "title": "Symbolic Production & Learning",
+        "question": "What are the educational consequences when algorithmic systems do more than mediate and actually generate the symbolic environments in which students learn?",
+        "frictions": ["noetic", "existential"]
+      },
+      {
+        "id": "QP3",
+        "title": "Framework Foundation",
+        "question": "What theoretical framework can guide educators in preserving the cognitive, rhetorical, and existential conditions necessary for durable learning in an age of generative AI?",
+        "frictions": ["noetic", "rhetorical", "existential", "infrastructural"]
+      }
     ],
-    "dissertation": {
-      "RQ1": "How do K-12 classroom-facing educators understand and navigate the friction-reducing affordances of generative AI in academic work, particularly in relation to productive and exclusionary friction?",
-      "RQ2": "What institutional conditions, including policy, assessment design, professional development, leadership disposition, and governance structures, enable or constrain friction-preserving pedagogy across classroom, building, and system levels?",
-      "RQ3": "What framework-aligned policy language, assessment expectations, and instructional-design supports do K-12 educators and school-system leaders describe as necessary to preserve productive friction while reducing exclusionary friction under conditions of generative AI?"
-    }
+    "dissertation": [
+      {
+        "id": "RQ1",
+        "number": 1,
+        "title": "Educator Sensemaking & Friction Navigation",
+        "question": "How do K-12 classroom-facing educators understand and navigate the friction-reducing affordances of generative AI in academic work, particularly in relation to productive and exclusionary friction?",
+        "focus": "Educator sensemaking, productive vs. exclusionary friction, cognitive struggle, and authorial ownership",
+        "role_groups": ["Classroom-facing Educators"],
+        "frictions": ["noetic", "rhetorical", "existential"],
+        "primary_evidence": [
+          "Classroom-facing educator interviews",
+          "Educator card sort protocol",
+          "Educator survey items (cognitive struggle, authentic understanding, AI-assisted work)"
+        ],
+        "contextual_evidence": [
+          "University-student retrospective accounts (learner-perspective context support)"
+        ],
+        "integration_target": "Joint Display 1 (Expected Teaching Impact & Educator Sensemaking)"
+      },
+      {
+        "id": "RQ2",
+        "number": 2,
+        "title": "Institutional Conditions & Enablers/Constraints",
+        "question": "What institutional conditions, including policy, assessment design, professional development, leadership disposition, and governance structures, enable or constrain friction-preserving pedagogy across classroom, building, and system levels?",
+        "focus": "Policy presence/clarity, assessment latitude, professional development access, leadership support, and governance structures",
+        "role_groups": ["Classroom-facing Educators", "Building-level Administrators", "District/System-level Leaders"],
+        "frictions": ["infrastructural"],
+        "primary_evidence": [
+          "Building-level administrator & district/system-leader interviews",
+          "Institutional document analysis",
+          "Educator survey items (policy clarity, PD access, leadership support, tool access)"
+        ],
+        "contextual_evidence": [
+          "NCES School Pulse Panel (Dec 2024 release)",
+          "RAND American Educator Panel (2023-2025)"
+        ],
+        "integration_target": "Joint Display 2 (Institutional Conditions, Policy & Infrastructure)"
+      },
+      {
+        "id": "RQ3",
+        "number": 3,
+        "title": "Framework-Aligned Policy, Assessment & Design Supports",
+        "question": "What framework-aligned policy language, assessment expectations, and instructional-design supports do K-12 educators and school-system leaders describe as necessary to preserve productive friction while reducing exclusionary friction under conditions of generative AI?",
+        "focus": "Actionable synthesis across policy language, assessment expectations, and instructional design to support friction-preserving practice",
+        "role_groups": ["Classroom-facing Educators", "Building-level Administrators", "District/System-level Leaders"],
+        "frictions": ["noetic", "rhetorical", "existential", "infrastructural"],
+        "primary_evidence": [
+          "Cross-role participant interviews",
+          "Institutional document analysis",
+          "Educator survey policy & design recommendations"
+        ],
+        "contextual_evidence": [
+          "Synthesized joint display meta-inferences across bounded-case & structural comparators"
+        ],
+        "integration_target": "Synthesized Meta-Inferences & Practice-Oriented Framework Supports"
+      }
+    ]
   },
   "design": {
     "approach": "Qualitative-dominant convergent mixed methods case study (QUAL + quan) aligned with Merriam's interpretive tradition.",
