@@ -3,6 +3,7 @@
   "use strict";
 
   var state = { ideas: null, traditions: [], references: [], refById: {} };
+  var DATA_VERSION = "20260804c";
 
   function $(sel, root) { return (root || document).querySelector(sel); }
   function el(tag, cls, html) {
@@ -23,8 +24,13 @@
     b.textContent = msg;
   }
 
+  function asArray(value) {
+    return Array.isArray(value) ? value : [];
+  }
+
   function load(path) {
-    return fetch(path).then(function (r) {
+    var separator = path.indexOf("?") === -1 ? "?" : "&";
+    return fetch(path + separator + "v=" + DATA_VERSION).then(function (r) {
       if (!r.ok) throw new Error("Could not load " + path + " (" + r.status + ")");
       return r.json();
     });
@@ -37,7 +43,7 @@
     var stats = [
       [state.ideas.stages.length, "media-ecology stages"],
       [state.traditions.length, "intellectual traditions"],
-      [(state.ideas.research_questions.dissertation || []).length, "dissertation RQs"],
+      [asArray(state.ideas.research_questions && state.ideas.research_questions.dissertation).length, "dissertation RQs"],
       [state.ideas.framework_dimensions.length, "friction dimensions"],
       [state.references.length, "sources mapped"]
     ];
@@ -207,7 +213,7 @@
   }
 
   function updateRqList() {
-    var items = (state.ideas.research_questions && state.ideas.research_questions[currentRqSet]) || [];
+    var items = asArray(state.ideas.research_questions && state.ideas.research_questions[currentRqSet]);
     var roleVal = $("#rq-role-filter") ? $("#rq-role-filter").value : "";
     var fricVal = $("#rq-friction-filter") ? $("#rq-friction-filter").value : "";
 
