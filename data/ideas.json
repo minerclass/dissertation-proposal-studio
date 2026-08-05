@@ -2,8 +2,8 @@
   "project_title": "Pedagogical Friction in the Age of Generative AI",
   "qualifying_paper_title": "Beyond Secondary Orality: Tertiary Algorithmicity and the Case for Pedagogical Friction",
   "overview": {
-    "abstract_short": "A conceptual argument that generative AI requires extending Walter Ong's media ecology beyond secondary orality. It proposes two new stages, algorithmic secondary orality and tertiary algorithmicity, and offers 'pedagogical friction' as an educational response framework focused on preserving cognitive, rhetorical, existential, and infrastructural resistance necessary for durable learning.",
-    "central_problem": "The central educational problem posed by generative AI is the bypassing of interpretive labor, intellectual accountability, and developmental conditions for learning rather than academic integrity.",
+    "abstract_short": "The completed qualifying paper develops the conceptual argument that generative AI requires extending Walter Ong's media ecology beyond secondary orality. It proposes algorithmic secondary orality and tertiary algorithmicity, then offers pedagogical friction as an educational response framework focused on preserving the noetic, rhetorical, existential, and infrastructural conditions necessary for durable learning. The dissertation now examines how that framework holds up in educator and institutional practice.",
+    "central_problem": "The central educational problem posed by generative AI is the bypassing of interpretive labor, intellectual accountability, and developmental conditions for learning rather than academic integrity alone.",
     "key_contributions": [
       "Identifies three broken assumptions in Ong's framework under contemporary algorithmic media: human origination of symbolic content, transparent distribution logics, and media as external environment.",
       "Proposes two extensions: algorithmic secondary orality (human creation plus algorithmic circulation) and tertiary algorithmicity (algorithmic creation plus curation; human authorship optional at scale).",
@@ -61,7 +61,7 @@
       "definition": "A condition in which algorithmic systems generate as well as curate symbolic content, so authorship is not necessarily human.",
       "tags": ["generative AI", "authorship", "learning"],
       "key_points": [
-        "Qualitative rupture from distribution to generation.",
+        "Stalder's curatorial algorithmicity is retained and extended from filtering and ranking into symbolic generation at scale.",
         "Oral or literate modality matters less than human vs. algorithmic origination."
       ]
     },
@@ -98,11 +98,12 @@
     {
       "id": "pedagogical_friction",
       "title": "Pedagogical Friction",
-      "definition": "Intentional preservation of cognitive, rhetorical, existential, and infrastructural resistance necessary for durable learning when automation trends toward frictionless production.",
+      "definition": "Intentional preservation of the cognitive, dialogic, authorial, and institutional conditions necessary for durable learning when automation trends toward frictionless production.",
       "tags": ["instructional design", "policy"],
       "key_points": [
         "Not a ban or embrace stance; it is design for necessary difficulty.",
-        "Protect productive struggle while reducing unproductive obstacles."
+        "Protect productive struggle while reducing exclusionary obstacles.",
+        "Treat noetic, rhetorical, and existential friction as learner-facing dimensions, with infrastructural friction as the system layer that enables or constrains them."
       ]
     },
     {
@@ -120,25 +121,25 @@
     {
       "id": "noetic",
       "label": "Noetic Friction (The Head)",
-      "definition": "Internal cognitive resistance required for comprehension, synthesis, argumentation, and revision; aligns with germane load, generation effect, and productive failure.",
+      "definition": "A learner-facing dimension: internal cognitive resistance required for comprehension, synthesis, argumentation, and revision; aligns with germane load, generation effect, and productive failure.",
       "examples": ["struggle to synthesize sources", "compose original work", "retrieval practice"]
     },
     {
       "id": "rhetorical",
       "label": "Rhetorical Friction (The Room)",
-      "definition": "Dialogic struggle of defending ideas with unpredictable real audiences; includes peer review, discussion, and oral defense.",
+      "definition": "A learner-facing dimension: dialogic struggle of defending ideas with unpredictable real audiences; includes peer review, discussion, and oral defense.",
       "examples": ["peer critique", "seminar discussion", "public presentation"]
     },
     {
       "id": "existential",
       "label": "Existential Friction (The World)",
-      "definition": "Embodied accountability and vulnerability of authorship: being personally answerable for claims.",
+      "definition": "A learner-facing dimension: embodied accountability and vulnerability of authorship, including being personally answerable for claims.",
       "examples": ["oral defense", "authorial stance", "revision grounded in personal investment"]
     },
     {
       "id": "infrastructural",
       "label": "Infrastructural Friction (The System)",
-      "definition": "Policy, assessment, and professional learning conditions enabling or constraining the other dimensions.",
+      "definition": "The institutional environment is not a neutral backdrop. Its policy, assessment, leadership, governance, and professional-learning conditions actively constrain or enable whether noetic, rhetorical, and existential friction can be sustained; naming this system layer as friction keeps it inside the study's design vocabulary.",
       "examples": ["AI policy that names productive struggle", "assessment norms evaluating process", "professional development for friction-preserving pedagogy"]
     }
   ],
@@ -226,7 +227,7 @@
     "qualitative": {
       "sources": [
         "Semi-structured interviews",
-        "Card sort protocol",
+        "Scenario card sort protocol",
         "Institutional document analysis"
       ],
       "participants": [
@@ -238,15 +239,16 @@
     },
     "quantitative": {
       "sources": [
-        "NCES School Pulse Panel (December 2024 release)",
-        "RAND American Educator Panel (2023-2025)",
-        "Original teacher survey instrument"
+        "NCES School Pulse Panel as structural context",
+        "RAND American Educator Panel and RAND/Gallup data as structural context",
+        "Original educator survey instrument"
       ]
     },
     "integration": [
       "Joint displays by research question",
       "Narrative integration",
-      "Meta-inferences"
+      "Meta-inferences",
+      "Explicit preservation of convergence, divergence, expansion, and silence"
     ]
   },
   "ai_comparison_indicators": [
@@ -255,6 +257,7 @@
     { "id": "institutional_memory", "label": "Institutional memory and relational knowledge" },
     { "id": "uncertainty", "label": "Professional uncertainty and ambivalence" },
     { "id": "dimension_coverage", "label": "Framework dimension coverage" },
-    { "id": "temporal_authenticity", "label": "Temporal authenticity (student-matched)" }
+    { "id": "productive_counter_friction", "label": "Situated judgment or productive counter-friction" },
+    { "id": "temporal_authenticity", "label": "Temporal authenticity if learner-perspective prompts are retained" }
   ]
 }
