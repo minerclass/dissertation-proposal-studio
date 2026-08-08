@@ -19,6 +19,8 @@
         "tertiary_algorithmicity"
       ],
       "refs": [
+        "proposal-gadamer-2004",
+        "proposal-frankfurt-2005",
         "virilio2006"
       ]
     },
@@ -44,11 +46,19 @@
         "literacy"
       ],
       "refs": [
+        "proposal-dewey-1933",
         "dewey1938",
+        "proposal-vygotsky-1978",
+        "proposal-sweller-1988",
+        "proposal-bruner-1996",
+        "proposal-ellington-2003",
         "kapur2008",
         "karpicke2008",
+        "proposal-michaels-2008",
         "bjork2011",
-        "kapur2016"
+        "proposal-chi-2014",
+        "kapur2016",
+        "proposal-schindler-2023"
       ]
     },
     {
@@ -96,10 +106,20 @@
       ],
       "refs": [
         "ellul1964",
+        "foucault1972",
         "illich1973",
+        "proposal-postman-1985",
+        "proposal-dreyfus-1992",
         "postman1992",
+        "proposal-smith-1994",
+        "proposal-postman-1998",
         "feenberg1999",
-        "foucault1972"
+        "proposal-hutchby-2001",
+        "proposal-feenberg-2002",
+        "proposal-krutka-2022",
+        "proposal-krutka-2022-2",
+        "proposal-metzger-2023",
+        "proposal-pleasants-2025"
       ]
     },
     {
@@ -143,7 +163,31 @@
         "tertiary_algorithmicity"
       ],
       "refs": [
-        "ong1982"
+        "proposal-ong-1977",
+        "ong1982",
+        "proposal-ong-2017"
+      ]
+    },
+    {
+      "id": "constructivist-qualitative-inquiry",
+      "name": "Constructivist Qualitative Inquiry",
+      "originYear": 1985,
+      "era": "1985 to present",
+      "thinkers": [
+        "Yvonna S. Lincoln",
+        "Egon G. Guba",
+        "Michael Crotty"
+      ],
+      "contribution": "Supplies the interpretive stance for understanding participant meaning as situated and co-constructed, with sensemaking connecting ambiguous educational conditions to the cues, frames, accounts, and actions participants describe.",
+      "frictions": [],
+      "stages": [],
+      "refs": [
+        "proposal-lincoln-1985",
+        "proposal-guba-1994",
+        "proposal-phillips-1995",
+        "proposal-von-glasersfeld-1995",
+        "crotty1998",
+        "proposal-richardson-2003"
       ]
     },
     {
@@ -167,11 +211,110 @@
         "algorithmic_secondary_orality"
       ],
       "refs": [
+        "proposal-kittler-1990",
+        "proposal-baudrillard-1994",
+        "proposal-bolter-1999",
         "kittler1999",
-        "ernst2013",
-        "huhtamo2011",
         "zielinski2006",
-        "hayles2012"
+        "huhtamo2011",
+        "hayles2012",
+        "ernst2013",
+        "proposal-hayles-2017"
+      ]
+    },
+    {
+      "id": "educational-sensemaking",
+      "name": "Educational Sensemaking",
+      "originYear": 2001,
+      "era": "2001 to present",
+      "thinkers": [
+        "Cynthia E. Coburn",
+        "James P. Spillane",
+        "Karl E. Weick",
+        "Sally Maitlis"
+      ],
+      "contribution": "Explains how educators and school systems interpret ambiguous conditions through existing frames, professional communities, and local practice rather than through policy text alone. Supplies the account of teacher and leader sensemaking that the research questions ask about directly.",
+      "frictions": [
+        "infrastructural"
+      ],
+      "stages": [],
+      "refs": [
+        "proposal-coburn-2001",
+        "proposal-spillane-2002",
+        "proposal-coburn-2005",
+        "proposal-weick-2005",
+        "proposal-maitlis-2014"
+      ]
+    },
+    {
+      "id": "research-methods",
+      "name": "Research Methods and Analysis",
+      "originYear": 2005,
+      "era": "2005 to present",
+      "thinkers": [
+        "John W. Creswell",
+        "Vicki L. Plano Clark",
+        "Abbas Tashakkori",
+        "Charles Teddlie",
+        "Virginia Braun",
+        "Victoria Clarke",
+        "Johnny Saldaña",
+        "Michael Quinn Patton"
+      ],
+      "contribution": "The design, instrument, and analysis toolkit the study runs on: convergent mixed methods, integration through joint displays, reflexive thematic analysis, cognitive interviewing, scale development, and the statistical environments used. Supports how the study is conducted rather than what it argues.",
+      "frictions": [],
+      "stages": [],
+      "refs": [
+        "proposal-willis-2005",
+        "proposal-braun-2006",
+        "proposal-bryman-2006",
+        "proposal-beatty-2007",
+        "proposal-tashakkori-2010",
+        "proposal-fetters-2013",
+        "proposal-guetterman-2015",
+        "proposal-patton-2015",
+        "proposal-malterud-2016",
+        "proposal-devellis-2017",
+        "proposal-creswell-2018",
+        "proposal-tabachnick-2019",
+        "proposal-braun-2021",
+        "proposal-salda-a-2021",
+        "proposal-r-core-team-2025",
+        "proposal-the-jamovi-project-2025"
+      ]
+    },
+    {
+      "id": "tertiary-orality",
+      "name": "Tertiary Orality Scholarship",
+      "originYear": 2009,
+      "era": "2009 to present",
+      "thinkers": [
+        "Robert Mayer",
+        "David Turner",
+        "William Allen",
+        "Oliver Soffer",
+        "Theresa Heyd",
+        "Semi Ryu",
+        "José-Antonio Cordón-García",
+        "Marta Muñoz-Rico"
+      ],
+      "contribution": "The existing scholarly attempt to name what follows secondary orality, across voice queries, spoken computer-mediated communication, virtual reality, and documents as dialogue. This is the conversation tertiary algorithmicity enters and revises, so the dissertation's central move is legible as an intervention rather than a coinage.",
+      "frictions": [
+        "noetic",
+        "rhetorical"
+      ],
+      "stages": [
+        "secondary_orality",
+        "algorithmic_secondary_orality",
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "proposal-mayer-2009",
+        "proposal-turner-2013",
+        "proposal-soffer-2020",
+        "proposal-heyd-2021",
+        "proposal-ryu-2023",
+        "proposal-cord-n-garc-a-2024"
       ]
     },
     {
@@ -191,7 +334,8 @@
         "tertiary_algorithmicity"
       ],
       "refs": [
-        "stiegler2010"
+        "stiegler2010",
+        "proposal-stiegler-2010"
       ]
     },
     {
@@ -212,8 +356,13 @@
         "algorithmic_secondary_orality"
       ],
       "refs": [
+        "proposal-boyd-2007",
         "pariser2011",
-        "williamson2017"
+        "proposal-bucher-2012",
+        "proposal-bakshy-2015",
+        "proposal-brady-2017",
+        "williamson2017",
+        "proposal-vosoughi-2018"
       ]
     },
     {
@@ -239,10 +388,34 @@
       ],
       "refs": [
         "carr2011",
+        "turkle2011",
         "wolf2018",
+        "proposal-bailenson-2021",
+        "proposal-tomprou-2021",
         "haidt2024",
-        "rosen2024",
-        "turkle2011"
+        "rosen2024"
+      ]
+    },
+    {
+      "id": "disability-exclusionary-difficulty",
+      "name": "Disability, Access, and Exclusionary Difficulty",
+      "originYear": 2013,
+      "era": "2013 to present",
+      "thinkers": [
+        "Subini Ancy Annamma",
+        "David Connor",
+        "Beth Ferri",
+        "Jay Timothy Dolmage"
+      ],
+      "contribution": "Names how difficulty is distributed unequally and how ableist norms make some barriers read as rigor. Disciplines the productive-versus-exclusionary distinction so that preserving friction never becomes a defense of exclusion.",
+      "frictions": [
+        "existential",
+        "infrastructural"
+      ],
+      "stages": [],
+      "refs": [
+        "proposal-annamma-2013",
+        "proposal-dolmage-2017"
       ]
     },
     {
@@ -263,6 +436,8 @@
         "tertiary_algorithmicity"
       ],
       "refs": [
+        "proposal-wu-2016",
+        "proposal-tufekci-2017",
         "zuboff2019",
         "varoufakis2023"
       ]
@@ -289,11 +464,15 @@
         "tertiary_algorithmicity"
       ],
       "refs": [
-        "ortegren2024",
-        "meyerhofer2024",
-        "macleroy2023",
-        "bacalja2022",
         "kellner2007",
+        "proposal-stalder-2018",
+        "bacalja2022",
+        "proposal-dron-2023",
+        "macleroy2023",
+        "proposal-bozkurt-2024",
+        "meyerhofer2024",
+        "ortegren2024",
+        "proposal-bozkurt-2025",
         "sellami2025"
       ]
     },
@@ -320,33 +499,46 @@
         "tertiary_algorithmicity"
       ],
       "refs": [
+        "selwyn2019",
+        "proposal-zawacki-richter-2019",
+        "proposal-bender-2020",
+        "proposal-floridi-2020",
+        "proposal-bender-2021",
+        "proposal-clark-2021",
+        "connolly2023",
+        "proposal-jakesch-2023",
+        "proposal-kasneci-2023",
+        "proposal-bond-2024",
+        "proposal-diliberti-2024",
+        "evmenova2024",
+        "proposal-kizilcec-2024",
+        "proposal-mollick-2024",
+        "proposal-zhang-2024",
+        "proposal-acharya-2025",
+        "proposal-alfarwan-2025",
         "an2025",
+        "proposal-bastani-2025",
+        "proposal-diliberti-2025",
+        "proposal-doss-2025",
         "greene2024",
         "hu2025",
-        "wiley2025",
-        "selwyn2019",
-        "connolly2023",
-        "evmenova2024",
+        "proposal-jones-2025",
+        "proposal-kaufman-2025",
+        "proposal-kostopoulos-2025",
+        "martin2025",
         "memon2025",
+        "proposal-national-center-for-education-statistics-2025",
+        "proposal-rice-2025",
+        "proposal-riva-2025",
+        "proposal-schneider-2025",
+        "proposal-teachai-2025",
+        "wiley2025",
         "yusuf2025",
-        "martin2025"
-      ]
-    },
-    {
-      "id": "constructivist-qualitative-inquiry",
-      "name": "Constructivist Qualitative Inquiry",
-      "originYear": 1985,
-      "era": "1985 to present",
-      "thinkers": [
-        "Yvonna S. Lincoln",
-        "Egon G. Guba",
-        "Michael Crotty"
-      ],
-      "contribution": "Supplies the interpretive stance for understanding participant meaning as situated and co-constructed, with sensemaking connecting ambiguous educational conditions to the cues, frames, accounts, and actions participants describe.",
-      "frictions": [],
-      "stages": [],
-      "refs": [
-        "crotty1998"
+        "proposal-kamalov-2026",
+        "proposal-korchinski-2026",
+        "proposal-miner-2026a",
+        "proposal-miner-2026b",
+        "proposal-schwartz-2026"
       ]
     }
   ]
