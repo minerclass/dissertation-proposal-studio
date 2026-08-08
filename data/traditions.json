@@ -176,9 +176,11 @@
       "thinkers": [
         "Yvonna S. Lincoln",
         "Egon G. Guba",
-        "Michael Crotty"
+        "Michael Crotty",
+        "Virginia Braun",
+        "Victoria Clarke"
       ],
-      "contribution": "Supplies the interpretive stance for understanding participant meaning as situated and co-constructed, with sensemaking connecting ambiguous educational conditions to the cues, frames, accounts, and actions participants describe.",
+      "contribution": "Supplies the interpretive stance for understanding participant meaning as situated and co-constructed, with sensemaking connecting ambiguous educational conditions to the cues, frames, accounts, and actions participants describe. Reflexive thematic analysis belongs here rather than with procedure, because its treatment of the researcher as an instrument follows from that stance.",
       "frictions": [],
       "stages": [],
       "refs": [
@@ -187,7 +189,9 @@
         "proposal-phillips-1995",
         "proposal-von-glasersfeld-1995",
         "crotty1998",
-        "proposal-richardson-2003"
+        "proposal-richardson-2003",
+        "proposal-braun-2006",
+        "proposal-braun-2021"
       ]
     },
     {
@@ -256,17 +260,14 @@
         "Vicki L. Plano Clark",
         "Abbas Tashakkori",
         "Charles Teddlie",
-        "Virginia Braun",
-        "Victoria Clarke",
         "Johnny Saldaña",
         "Michael Quinn Patton"
       ],
-      "contribution": "The design, instrument, and analysis toolkit the study runs on: convergent mixed methods, integration through joint displays, reflexive thematic analysis, cognitive interviewing, scale development, and the statistical environments used. Supports how the study is conducted rather than what it argues.",
+      "contribution": "The design, instrument, and analysis toolkit the study runs on: convergent mixed methods, integration through joint displays, coding and sampling guidance, cognitive interviewing, scale development, and the statistical environments used. Supports how the study is conducted rather than what it argues.",
       "frictions": [],
       "stages": [],
       "refs": [
         "proposal-willis-2005",
-        "proposal-braun-2006",
         "proposal-bryman-2006",
         "proposal-beatty-2007",
         "proposal-tashakkori-2010",
@@ -277,7 +278,6 @@
         "proposal-devellis-2017",
         "proposal-creswell-2018",
         "proposal-tabachnick-2019",
-        "proposal-braun-2021",
         "proposal-salda-a-2021",
         "proposal-r-core-team-2025",
         "proposal-the-jamovi-project-2025"

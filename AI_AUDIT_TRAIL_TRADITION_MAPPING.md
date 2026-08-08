@@ -13,7 +13,7 @@
 | :--- | :--- |
 | **Files Modified** | `data/references.json`, `data/traditions.json` |
 | **Sources Affected** | 104 of 151 references previously carried an empty `tradition` field |
-| **Result** | All 151 references are now assigned. 80 mapped onto the existing 14 traditions; 24 required 4 new traditions |
+| **Result** | All 151 references are now assigned. 80 mapped onto the existing 14 traditions; 24 required 4 new traditions. Two were reassigned on 2026-08-07 (see section 4) |
 | **Also Filled** | The `title` field on the same 104 records, recovered from their APA `citation` strings |
 | **Downstream** | `diss-proposal-defense` regenerated via `tools/build-intellectual-history.mjs`; its Proposal Bibliography bucket is now empty |
 
@@ -31,14 +31,16 @@ These were added because 24 sources had no defensible home among the existing 14
 | :--- | :--- | :--- |
 | **Tertiary Orality Scholarship** (2009 to present) | 6 | Heyd, Mayer, Turner and Allen, Ryu, Soffer, and Cordón-García and Muñoz-Rico form the existing scholarly attempt to name what follows secondary orality. This is the conversation *tertiary algorithmicity* enters, so leaving it unnamed made the dissertation's central move look like a coinage rather than an intervention. |
 | **Educational Sensemaking** (2001 to present) | 5 | Weick, Maitlis and Christianson, Coburn (2001, 2005), and Spillane et al. supply the sensemaking construct the research questions ask about by name. |
-| **Research Methods and Analysis** (2005 to present) | 16 | Design, instrument, analysis, and software sources. Folding these into Constructivist Qualitative Inquiry would have misstated the paradigm, since mixed-methods design and psychometrics are not constructivist commitments. |
+| **Research Methods and Analysis** (2005 to present) | 14 | Design, instrument, analysis, and software sources. Folding these into Constructivist Qualitative Inquiry would have misstated the paradigm, since mixed-methods design and psychometrics are not constructivist commitments. |
 | **Disability, Access, and Exclusionary Difficulty** (2013 to present) | 2 | Annamma et al. (DisCrit) and Dolmage discipline the productive versus exclusionary distinction so that preserving friction is not read as a defense of exclusion. |
 
-## 4. One judgment call worth reviewing
+## 4. One judgment call, since resolved by the researcher
 
-**Constructivist Qualitative Inquiry was split along paradigm and procedure.** Crotty, Lincoln and Guba, Guba and Lincoln, Phillips, von Glasersfeld, and Richardson stayed, as the interpretive stance. Braun and Clarke (2006, 2021), Saldaña, Patton, and Malterud et al. moved to Research Methods and Analysis, as procedure.
+**Constructivist Qualitative Inquiry was split along paradigm and procedure.** Crotty, Lincoln and Guba, Guba and Lincoln, Phillips, von Glasersfeld, and Richardson stayed, as the interpretive stance. Saldaña, Patton, and Malterud et al. moved to Research Methods and Analysis, as procedure.
 
-This is contestable: reflexive thematic analysis is explicitly constructivist-aligned, and a reasonable reader could keep Braun and Clarke with the paradigm sources. The split was chosen so that Constructivist Qualitative Inquiry answers "what is the epistemology" and Research Methods and Analysis answers "how was the study run." Move any of the five if the defense narrative reads better the other way.
+As first applied, Braun and Clarke (2006, 2021) moved to Research Methods and Analysis with the other procedural sources. This was flagged here as contestable, on the grounds that reflexive thematic analysis is explicitly constructivist-aligned.
+
+**Resolved 2026-08-07 (researcher decision): Braun and Clarke return to Constructivist Qualitative Inquiry.** Reflexive thematic analysis treats the researcher as an instrument, which is an epistemological commitment rather than a procedural step, so it belongs with the paradigm sources. Saldaña, Patton, and Malterud remain with procedure. Counts are now 8 and 14.
 
 ## 5. Method
 
