@@ -2,8 +2,18 @@
 
 **Date of Log**: 2026-08-04
 **Researcher / Author**: Micah J. Miner (assisted by Antigravity)
-**Project Context**: Qualitative-dominant convergent mixed-methods case study on *Pedagogical Friction in the Age of Generative AI* (Ed.D. Dissertation Defense Preparation, National Louis University).
+**Project Context**: Qualitative-dominant convergent mixed-methods study on *Pedagogical Friction in the Age of Generative AI*, grounded in constructivist qualitative inquiry (Ed.D. Dissertation Defense Preparation, National Louis University).
 **Audit Purpose**: Methodological compliance, transparency, and research ethics audit trail for incorporating verbatim Research Questions (RQ1–RQ3) and Qualifying Paper lineage into the public Pedagogical Friction Studio web application.
+
+> **Terminology correction, 2026-08-07.** As first written, this log described the
+> design in four places as a "Merriam-aligned qualitative-dominant convergent
+> mixed-methods case study," and described role groups as perspectives "within a
+> single bounded case." The controlling draft dropped the case-study framing, so
+> that wording no longer described the study. Those four passages now read
+> "qualitative-dominant convergent mixed methods grounded in constructivist
+> qualitative inquiry," matching `AGENTS.md`. Only the design description
+> changed. No account of what was done on 2026-08-04, and no Research Question
+> wording, was altered.
 
 ---
 
@@ -14,7 +24,7 @@
 | **Target Application** | Pedagogical Friction Studio ([dissertation-proposal-studio](https://github.com/minerclass/dissertation-proposal-studio)) |
 | **Files Modified** | `data/ideas.json`, `index.html`, `js/app.js`, `css/styles.css` |
 | **Core Addition** | Interactive, defense-ready **Research Questions** section (`#rqs`) featuring exact verbatim wording of Dissertation RQs 1–3 and Qualifying Paper lineage (QP1–QP3). |
-| **Methodological Alignment** | Preserves Merriam-aligned qualitative-dominant convergent mixed-methods case study design (QUAL + quan), role-based perspectives (classroom educators, building admin, system leaders), framework dimension mapping, and joint display integration targets. |
+| **Methodological Alignment** | Preserves the qualitative-dominant convergent mixed-methods design (QUAL + quan) grounded in constructivist qualitative inquiry, role-based perspectives (classroom educators, building admin, system leaders), framework dimension mapping, and joint display integration targets. |
 | **Deployment Status** | Committed and pushed to GitHub repository `minerclass/dissertation-proposal-studio` on branch `main` (Commit `81b20e3`). |
 
 ---
@@ -40,7 +50,7 @@
 * **Data Type Used**: JSON data schema (`data/ideas.json`).
 * **Prompt / Instruction Summary**: Expand `research_questions` into structured arrays for `qualifying_paper` (QP1–QP3) and `dissertation` (RQ1–RQ3), including analytical focus, role groups, framework friction dimensions (Noetic, Rhetorical, Existential, Infrastructural), primary evidence, contextual support, and joint display targets.
 * **Output Summary**: Updated `data/ideas.json` with clean JSON schema supporting multi-dimensional filtering.
-* **Researcher Action**: Confirmed role groups accurately reflect embedded perspectives within a single bounded case (classroom educators, building administrators, system leaders) rather than separate cases.
+* **Researcher Action**: Confirmed role groups accurately reflect situated perspectives within a single study (classroom educators, building administrators, system leaders) rather than separate strands.
 * **Verification Step**: Executed `python -c "import json; json.load(open('data/ideas.json'))"` to guarantee zero JSON syntax errors.
 
 ---
@@ -98,4 +108,4 @@
 1. **Participant Data Guardrail**: No raw, identifiable, or unpublished participant data was introduced into the AI session or deployed codebase.
 2. **Researcher Control Guardrail**: All analytical framing, theoretical definitions, and methodological mappings remain researcher-controlled. AI was utilized strictly for workflow scaffolding, data structuring, and UI implementation.
 3. **Citation & Wording Integrity**: Research Question wording (RQ1–RQ3) matches verbatim the committee-approved dissertation proposal Chapters 1–3 text.
-4. **Methodological Framing**: Maintained Merriam-aligned qualitative-dominant convergent mixed-methods case study framing.
+4. **Methodological Framing**: Maintained the qualitative-dominant convergent mixed-methods framing grounded in constructivist qualitative inquiry.

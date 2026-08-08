@@ -123,8 +123,15 @@
       var r = state.refById[rid];
       if (!r) return;
       var li = el("li");
+      // Author strings usually already end in a period ("Ong, W. J.") and some
+      // titles end in a question mark, so only add the separators that are
+      // actually missing.
+      var author = String(r.author || "");
+      var title = String(r.title || "");
+      var afterAuthor = /[.?!]$/.test(author) ? " " : ". ";
+      var afterTitle = /[.?!]$/.test(title) ? "" : ".";
       li.innerHTML = '<span class="yr">' + esc(r.year) + "</span>" +
-        esc(r.author) + ". <em>" + esc(r.title) + "</em>.";
+        esc(author) + afterAuthor + "<em>" + esc(title) + "</em>" + afterTitle;
       works.appendChild(li);
     });
     d.appendChild(works);
