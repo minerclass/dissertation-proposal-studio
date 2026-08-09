@@ -3,7 +3,7 @@
   "use strict";
 
   var state = { ideas: null, traditions: [], references: [], refById: {} };
-  var DATA_VERSION = "20260809b";
+  var DATA_VERSION = "20260809c";
 
   var GROUP_KIND_LABELS = {
     "intellectual-lineage": "Intellectual lineage",
