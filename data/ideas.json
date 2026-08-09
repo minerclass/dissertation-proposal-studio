@@ -172,13 +172,11 @@
         "focus": "Educator sensemaking, productive vs. exclusionary friction, cognitive struggle, and authorial ownership",
         "role_groups": ["Classroom-facing Educators"],
         "frictions": ["noetic", "rhetorical", "existential"],
-        "primary_evidence": [
-          "Classroom-facing educator interviews",
-          "Educator card sort protocol",
-          "Educator survey items (cognitive struggle, authentic understanding, AI-assisted work)"
-        ],
-        "contextual_evidence": [
-          "University-student retrospective accounts (learner-perspective context support)"
+        "evidence": [
+          { "source": "Classroom-facing educator interviews", "strand": "qual", "role": "core" },
+          { "source": "Educator card sort protocol", "strand": "qual", "role": "core" },
+          { "source": "Educator survey items (cognitive struggle, authentic understanding, AI-assisted work)", "strand": "quan", "role": "core" },
+          { "source": "University-student retrospective accounts (learner-perspective supplement)", "strand": "qual", "role": "supplementary" }
         ],
         "integration_target": "Joint Display 1 (Expected Teaching Impact & Educator Sensemaking)"
       },
@@ -190,14 +188,12 @@
         "focus": "Policy presence/clarity, assessment latitude, professional development access, leadership support, and governance structures",
         "role_groups": ["Classroom-facing Educators", "Building-level Administrators", "District/System-level Leaders"],
         "frictions": ["infrastructural"],
-        "primary_evidence": [
-          "Building-level administrator & district/system-leader interviews",
-          "Institutional document analysis",
-          "Educator survey items (policy clarity, PD access, leadership support, tool access)"
-        ],
-        "contextual_evidence": [
-          "NCES School Pulse Panel (Dec 2024 release)",
-          "RAND American Educator Panel (2023-2025)"
+        "evidence": [
+          { "source": "Building-level administrator & district/system-leader interviews", "strand": "qual", "role": "core" },
+          { "source": "Institutional document analysis", "strand": "qual", "role": "core" },
+          { "source": "Educator survey items (policy clarity, PD access, leadership support, tool access)", "strand": "quan", "role": "core" },
+          { "source": "NCES School Pulse Panel (Dec 2024 release)", "strand": "quan", "role": "supplementary" },
+          { "source": "RAND American Educator Panel (2023-2025)", "strand": "quan", "role": "supplementary" }
         ],
         "integration_target": "Joint Display 2 (Institutional Conditions, Policy & Infrastructure)"
       },
@@ -209,20 +205,18 @@
         "focus": "Actionable synthesis across policy language, assessment expectations, and instructional design to support friction-preserving practice",
         "role_groups": ["Classroom-facing Educators", "Building-level Administrators", "District/System-level Leaders"],
         "frictions": ["noetic", "rhetorical", "existential", "infrastructural"],
-        "primary_evidence": [
-          "Cross-role participant interviews",
-          "Institutional document analysis",
-          "Educator survey policy & design recommendations"
-        ],
-        "contextual_evidence": [
-          "Synthesized joint display meta-inferences across bounded-case & structural comparators"
+        "evidence": [
+          { "source": "Cross-role participant interviews", "strand": "qual", "role": "core" },
+          { "source": "Institutional document analysis", "strand": "qual", "role": "core" },
+          { "source": "Educator survey policy & design recommendations", "strand": "quan", "role": "core" },
+          { "source": "Synthesized joint display meta-inferences across core and supplementary evidence", "strand": "mixed", "role": "supplementary" }
         ],
         "integration_target": "Synthesized Meta-Inferences & Practice-Oriented Framework Supports"
       }
     ]
   },
   "design": {
-    "approach": "Qualitative-dominant convergent mixed methods case study (QUAL + quan) aligned with Merriam's interpretive tradition.",
+    "approach": "Qualitative-dominant convergent mixed methods (QUAL + quan) grounded in constructivist qualitative inquiry.",
     "qualitative": {
       "sources": [
         "Semi-structured interviews",

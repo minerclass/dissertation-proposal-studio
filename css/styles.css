@@ -258,12 +258,23 @@ a { color: var(--accent-2); }
   background: #fff; border: 1px solid var(--line); color: var(--accent-2); display: inline-flex; align-items: center; gap: 0.4rem;
 }
 
-.rq-method-grid { min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-bottom: 1.25rem; }
+.rq-method-grid { min-width: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; margin-bottom: 1.25rem; }
 .rq-method-box { min-width: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 1.2rem; }
 .rq-method-box h4 { font-family: var(--serif); font-size: 1.05rem; margin: 0 0 0.75rem; color: var(--ink); display: flex; align-items: center; gap: 0.5rem; }
 .rq-method-box ul { list-style: none; margin: 0; padding: 0; }
 .rq-method-box li { font-size: 0.92rem; padding: 0.35rem 0; border-bottom: 1px dashed var(--line); display: flex; align-items: baseline; gap: 0.5rem; }
 .rq-method-box li:last-child { border-bottom: none; }
+.rq-method-box li.evidence-empty { color: var(--ink-soft); font-style: italic; }
+
+.strand-chip {
+  display: inline-block; margin-left: 0.35rem; padding: 0.05rem 0.4rem;
+  border-radius: 999px; border: 1px solid var(--line);
+  font-family: var(--serif); font-size: 0.72rem; letter-spacing: 0.02em;
+  white-space: nowrap; vertical-align: baseline; color: #4a4a4a; background: #f3efe6;
+}
+.strand-chip.qual { border-color: #b9a67c; color: #6b551f; background: #faf5e8; }
+.strand-chip.quan { border-color: #8fa9b8; color: #2f5567; background: #eef4f8; }
+.strand-chip.mixed { border-color: #a89bb5; color: #533f66; background: #f4f0f8; }
 
 .rq-target-box {
   background: #fcf9f2; border: 1px solid #e2d9c7; border-radius: 12px; padding: 1.1rem 1.3rem;
@@ -283,6 +294,10 @@ a { color: var(--accent-2); }
 }
 
 /* Responsive */
+@media (max-width: 1080px) and (min-width: 861px) {
+  .rq-method-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
 @media (max-width: 860px) {
   .tradition-layout { grid-template-columns: 1fr; }
   .tradition-list { flex-direction: row; overflow-x: auto; max-height: none; }

@@ -3,7 +3,7 @@
   "use strict";
 
   var state = { ideas: null, traditions: [], references: [], refById: {} };
-  var DATA_VERSION = "20260809a";
+  var DATA_VERSION = "20260809b";
 
   var GROUP_KIND_LABELS = {
     "intellectual-lineage": "Intellectual lineage",
@@ -154,6 +154,10 @@
   }
   function frictionLabel(f) {
     return { noetic: "Noetic", rhetorical: "Rhetorical", existential: "Existential", infrastructural: "Infrastructural" }[f] || f;
+  }
+
+  function strandLabel(s) {
+    return { qual: "QUAL", quan: "quan", mixed: "mixed" }[s] || s;
   }
 
   /* ---------- FRAMEWORK ---------- */
@@ -321,23 +325,44 @@
       return '<span class="fchip ' + f + '">' + esc(frictionLabel(f)) + '</span>';
     }).join(" ");
 
-    var primEv = (rq.primary_evidence || []).map(function (e) {
-      return '<li><i class="fa-solid fa-check-circle" style="color:var(--accent);"></i> ' + esc(e) + '</li>';
-    }).join("");
+    var evidence = asArray(rq.evidence);
 
-    var contEv = (rq.contextual_evidence || []).map(function (e) {
-      return '<li><i class="fa-solid fa-database" style="color:var(--accent-2);"></i> ' + esc(e) + '</li>';
-    }).join("");
+    function evidenceItems(predicate, icon, iconColor, showStrand) {
+      var rows = evidence.filter(predicate).map(function (e) {
+        var chip = showStrand
+          ? ' <span class="strand-chip ' + esc(e.strand) + '">' + esc(strandLabel(e.strand)) + '</span>'
+          : "";
+        return '<li><i class="fa-solid ' + icon + '" style="color:' + iconColor + ';"></i> ' +
+          '<span>' + esc(e.source) + chip + '</span></li>';
+      });
+      return rows.length ? rows.join("") : '<li class="evidence-empty">Not drawn on for this question.</li>';
+    }
+
+    var coreQual = evidenceItems(function (e) {
+      return e.role === "core" && e.strand === "qual";
+    }, "fa-comments", "var(--accent)", false);
+
+    var coreQuan = evidenceItems(function (e) {
+      return e.role === "core" && e.strand === "quan";
+    }, "fa-chart-simple", "var(--accent)", false);
+
+    var supporting = evidenceItems(function (e) {
+      return e.role === "supplementary";
+    }, "fa-database", "var(--accent-2)", true);
 
     var methodSec = isDiss ? (
       '<div class="rq-method-grid">' +
         '<div class="rq-method-box">' +
-          '<h4><i class="fa-solid fa-clipboard-user"></i> Primary Bounded-Case Evidence (QUAL)</h4>' +
-          '<ul>' + primEv + '</ul>' +
+          '<h4><i class="fa-solid fa-clipboard-user"></i> Analytic Core (QUAL)</h4>' +
+          '<ul>' + coreQual + '</ul>' +
         '</div>' +
         '<div class="rq-method-box">' +
-          '<h4><i class="fa-solid fa-chart-line"></i> Contextual & Structural Support (quan)</h4>' +
-          '<ul>' + contEv + '</ul>' +
+          '<h4><i class="fa-solid fa-chart-line"></i> Analytic Core (quan)</h4>' +
+          '<ul>' + coreQuan + '</ul>' +
+        '</div>' +
+        '<div class="rq-method-box">' +
+          '<h4><i class="fa-solid fa-layer-group"></i> Supplementary & Contextual</h4>' +
+          '<ul>' + supporting + '</ul>' +
         '</div>' +
       '</div>' +
       '<div class="rq-target-box">' +

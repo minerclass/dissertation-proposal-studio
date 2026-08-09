@@ -63,3 +63,4 @@ As first applied, Braun and Clarke (2006, 2021) moved to Research Design, Analys
 
 * The doubled punctuation in the works list was corrected on 2026-08-07. The renderer now adds author and title separators only when they are missing.
 * The stale case-study wording in `AI_AUDIT_TRAIL.md` was corrected on 2026-08-07. Its dated correction note remains as part of the audit history.
+* Two further case-study instances, both in shipped files rather than audit records, were found and corrected on 2026-08-09: `design.approach` in `data/ideas.json` and the `#rqs` section intro in `index.html`. See `AI_AUDIT_TRAIL_EVIDENCE_STRANDS.md`, section 5.
