@@ -3,7 +3,7 @@
   "use strict";
 
   var state = { ideas: null, traditions: [], references: [], refById: {} };
-  var DATA_VERSION = "20260809c";
+  var DATA_VERSION = "20260809d";
 
   var GROUP_KIND_LABELS = {
     "intellectual-lineage": "Intellectual lineage",
@@ -153,11 +153,17 @@
 
   }
   function frictionLabel(f) {
-    return { noetic: "Noetic", rhetorical: "Rhetorical", existential: "Existential", infrastructural: "Infrastructural" }[f] || f;
+    return {
+      noetic: "Noetic",
+      rhetorical: "Rhetorical",
+      existential: "Existential",
+      infrastructural: "Infrastructural",
+      integration: "Cross-dimensional synthesis"
+    }[f] || f;
   }
 
   function strandLabel(s) {
-    return { qual: "QUAL", quan: "quan", mixed: "mixed" }[s] || s;
+    return { qual: "QUAL", quan: "quan", mixed: "mixed", artifact: "nonparticipant" }[s] || s;
   }
 
   /* ---------- FRAMEWORK ---------- */
@@ -200,7 +206,7 @@
 
   /* ---------- RESEARCH QUESTIONS ---------- */
   var currentRqSet = "dissertation";
-  var selectedRqIndex = 0;
+  var selectedRqId = null;
 
   function renderResearchQuestions() {
     var tabDiss = $("#tab-rq-dissertation");
@@ -212,7 +218,7 @@
 
     tabDiss.addEventListener("click", function () {
       currentRqSet = "dissertation";
-      selectedRqIndex = 0;
+      selectedRqId = null;
       tabDiss.classList.add("active");
       tabDiss.setAttribute("aria-selected", "true");
       tabQp.classList.remove("active");
@@ -223,7 +229,7 @@
 
     tabQp.addEventListener("click", function () {
       currentRqSet = "qualifying_paper";
-      selectedRqIndex = 0;
+      selectedRqId = null;
       tabQp.classList.add("active");
       tabQp.setAttribute("aria-selected", "true");
       tabDiss.classList.remove("active");
@@ -232,8 +238,8 @@
       updateRqList();
     });
 
-    if (roleFilter) roleFilter.addEventListener("change", function () { selectedRqIndex = 0; updateRqList(); });
-    if (frictionFilter) frictionFilter.addEventListener("change", function () { selectedRqIndex = 0; updateRqList(); });
+    if (roleFilter) roleFilter.addEventListener("change", function () { selectedRqId = null; updateRqList(); });
+    if (frictionFilter) frictionFilter.addEventListener("change", function () { selectedRqId = null; updateRqList(); });
 
     updateRqList();
   }
@@ -264,12 +270,18 @@
       return;
     }
 
-    if (selectedRqIndex >= filtered.length) selectedRqIndex = 0;
+    if (!filtered.some(function (rq) { return rq.id === selectedRqId; })) {
+      selectedRqId = filtered[0].id;
+    }
 
-    filtered.forEach(function (rq, idx) {
-      var card = el("div", "rq-card" + (idx === selectedRqIndex ? " active" : ""));
-      card.setAttribute("tabindex", "0");
-      card.setAttribute("role", "button");
+    filtered.forEach(function (rq) {
+      var isSelected = rq.id === selectedRqId;
+      var card = el("button", "rq-card" + (isSelected ? " active" : ""));
+      card.type = "button";
+      card.id = "rq-card-" + rq.id;
+      card.dataset.rqId = rq.id;
+      card.setAttribute("aria-pressed", isSelected ? "true" : "false");
+      card.setAttribute("aria-controls", "rq-detail-view");
 
       var roleTagsHtml = (rq.role_groups || []).map(function (rg) {
         var shortRole = rg.split(" ")[0];
@@ -281,33 +293,34 @@
       }).join(" ");
 
       card.innerHTML =
-        '<div class="rq-card-header">' +
+        '<span class="rq-card-header">' +
           '<span class="rq-badge">' + esc(rq.id) + '</span>' +
-          '<h3 class="rq-card-title">' + esc(rq.title || "Research Question") + '</h3>' +
-        '</div>' +
-        '<blockquote class="rq-question-text">&ldquo;' + esc(rq.question) + '&rdquo;</blockquote>' +
-        '<div class="rq-card-meta">' +
-          '<div class="rq-meta-roles">' + roleTagsHtml + '</div>' +
-          '<div class="rq-meta-frictions">' + fricChipsHtml + '</div>' +
-        '</div>';
+          '<span class="rq-card-title">' + esc(rq.title || "Research Question") + '</span>' +
+        '</span>' +
+        '<span class="rq-question-text">&ldquo;' + esc(rq.question) + '&rdquo;</span>' +
+        '<span class="rq-card-meta">' +
+          '<span class="rq-meta-roles">' + roleTagsHtml + '</span>' +
+          '<span class="rq-meta-frictions">' + fricChipsHtml + '</span>' +
+        '</span>';
 
       card.addEventListener("click", function () {
-        selectedRqIndex = idx;
-        renderRqCards(filtered);
+        selectedRqId = rq.id;
+        renderRqCards();
         renderRqDetail(rq);
       });
 
       container.appendChild(card);
     });
 
-    renderRqDetail(filtered[selectedRqIndex]);
+    renderRqDetail(filtered.filter(function (rq) { return rq.id === selectedRqId; })[0]);
   }
 
-  function renderRqCards(filtered) {
+  function renderRqCards() {
     var cards = document.querySelectorAll(".rq-card");
-    cards.forEach(function (c, idx) {
-      if (idx === selectedRqIndex) c.classList.add("active");
-      else c.classList.remove("active");
+    cards.forEach(function (c) {
+      var active = c.dataset.rqId === selectedRqId;
+      c.classList.toggle("active", active);
+      c.setAttribute("aria-pressed", active ? "true" : "false");
     });
   }
 
@@ -365,9 +378,15 @@
           '<ul>' + supporting + '</ul>' +
         '</div>' +
       '</div>' +
-      '<div class="rq-target-box">' +
-        '<h4><i class="fa-solid fa-diagram-project"></i> Methodological Joint Display & Integration Target</h4>' +
-        '<p>' + esc(rq.integration_target || "") + '</p>' +
+      '<div class="rq-target-grid">' +
+        '<div class="rq-target-box">' +
+          '<h4><i class="fa-solid fa-magnifying-glass-chart"></i> Analysis</h4>' +
+          '<p>' + esc(rq.analysis || "") + '</p>' +
+        '</div>' +
+        '<div class="rq-target-box">' +
+          '<h4><i class="fa-solid fa-diagram-project"></i> Integration Target</h4>' +
+          '<p>' + esc(rq.integration_target || "") + '</p>' +
+        '</div>' +
       '</div>'
     ) : "";
 
@@ -379,7 +398,7 @@
       '<blockquote class="rq-detail-question">&ldquo;' + esc(rq.question) + '&rdquo;</blockquote>' +
       (rq.focus ? '<p class="rq-focus"><strong>Analytical Focus:</strong> ' + esc(rq.focus) + '</p>' : '') +
       '<div class="rq-detail-tags-row">' +
-        '<div><strong>Framework Alignment:</strong> ' + fricChips + '</div>' +
+        '<div><strong>Proposal Lens:</strong> ' + fricChips + '</div>' +
         (roleChips ? '<div style="margin-top:0.4rem;"><strong>Role Perspectives:</strong> ' + roleChips + '</div>' : '') +
       '</div>' +
       methodSec;

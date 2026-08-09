@@ -15,6 +15,15 @@
 > changed. No account of what was done on 2026-08-04, and no Research Question
 > wording, was altered.
 
+> **Research-question source correction, 2026-08-09.** This correction supersedes
+> the sentence above stating that no Research Question wording was altered. The
+> August 4 questions matched the source snapshot used on that date, but they no
+> longer matched the July 24, 2026 Chapters 1-3 working proposal. The shipped
+> `data/ideas.json` now uses the current proposal's exact RQ1-RQ3 wording and its
+> current role, evidence, analysis, and integration mappings. Historical claims
+> below that the questions were "verbatim" or "committee-approved" describe the
+> earlier snapshot and are not claims about the current document's approval status.
+
 ---
 
 ## 1. Executive Summary of Action

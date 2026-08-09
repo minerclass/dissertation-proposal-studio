@@ -167,51 +167,61 @@
       {
         "id": "RQ1",
         "number": 1,
-        "title": "Educator Sensemaking & Friction Navigation",
-        "question": "How do K-12 classroom-facing educators understand and navigate the friction-reducing affordances of generative AI in academic work, particularly in relation to productive and exclusionary friction?",
-        "focus": "Educator sensemaking, productive vs. exclusionary friction, cognitive struggle, and authorial ownership",
-        "role_groups": ["Classroom-facing Educators"],
+        "title": "Sensemaking of Changes to Teaching and Learning",
+        "question": "How do classroom-facing educators, building-level administrators, district or system-level leaders, and adult university students make sense of the ways generative AI changes the effort, dialogue, authorship, judgment, and participation involved in teaching and learning?",
+        "focus": "How participants make meaning of changes in effort, dialogue, authorship, judgment, and participation under generative AI",
+        "role_groups": ["Classroom-facing Educators", "Building-level Administrators", "District/System-level Leaders", "Adult University Students"],
         "frictions": ["noetic", "rhetorical", "existential"],
         "evidence": [
           { "source": "Classroom-facing educator interviews", "strand": "qual", "role": "core" },
           { "source": "Educator card sort protocol", "strand": "qual", "role": "core" },
+          { "source": "Building-level administrator interviews", "strand": "qual", "role": "core" },
+          { "source": "District or system-level leader interviews", "strand": "qual", "role": "core" },
           { "source": "Educator survey items (cognitive struggle, authentic understanding, AI-assisted work)", "strand": "quan", "role": "core" },
-          { "source": "University-student retrospective accounts (learner-perspective supplement)", "strand": "qual", "role": "supplementary" }
+          { "source": "Adult university-student retrospective accounts (direct RQ1 learner-perspective evidence)", "strand": "qual", "role": "supplementary" },
+          { "source": "AI-generated texts used only as a separately labeled nonparticipant comparison", "strand": "artifact", "role": "supplementary" }
         ],
-        "integration_target": "Joint Display 1 (Expected Teaching Impact & Educator Sensemaking)"
+        "analysis": "Two-cycle thematic analysis; descriptive survey statistics; temporal coding of retrospective student accounts",
+        "integration_target": "RQ1 Joint Display (Expected Teaching Impact and Sensemaking)"
       },
       {
         "id": "RQ2",
         "number": 2,
-        "title": "Institutional Conditions & Enablers/Constraints",
-        "question": "What institutional conditions, including policy, assessment design, professional development, leadership disposition, and governance structures, enable or constrain friction-preserving pedagogy across classroom, building, and system levels?",
-        "focus": "Policy presence/clarity, assessment latitude, professional development access, leadership support, and governance structures",
+        "title": "Institutional Response and Governance Conditions",
+        "question": "How do educators and school-system leaders make sense of and respond to the policy, professional-learning, assessment, access, and governance conditions surrounding generative AI?",
+        "focus": "How professional role and institutional context shape interpretations and responses involving policy, professional learning, assessment, access, and governance",
         "role_groups": ["Classroom-facing Educators", "Building-level Administrators", "District/System-level Leaders"],
         "frictions": ["infrastructural"],
         "evidence": [
-          { "source": "Building-level administrator & district/system-leader interviews", "strand": "qual", "role": "core" },
-          { "source": "Institutional document analysis", "strand": "qual", "role": "core" },
+          { "source": "Classroom-facing educator interviews", "strand": "qual", "role": "core" },
+          { "source": "Building-level administrator interviews", "strand": "qual", "role": "core" },
+          { "source": "District or system-level leader interviews", "strand": "qual", "role": "core" },
+          { "source": "Institutional documents", "strand": "qual", "role": "core" },
           { "source": "Educator survey items (policy clarity, PD access, leadership support, tool access)", "strand": "quan", "role": "core" },
-          { "source": "NCES School Pulse Panel (Dec 2024 release)", "strand": "quan", "role": "supplementary" },
-          { "source": "RAND American Educator Panel (2023-2025)", "strand": "quan", "role": "supplementary" }
+          { "source": "Adult university-student retrospective accounts may provide context without being equated with professional role groups", "strand": "qual", "role": "supplementary" },
+          { "source": "NCES School Pulse Panel structural-context evidence", "strand": "quan", "role": "supplementary" },
+          { "source": "RAND American Educator Panel structural-context evidence", "strand": "quan", "role": "supplementary" }
         ],
-        "integration_target": "Joint Display 2 (Institutional Conditions, Policy & Infrastructure)"
+        "analysis": "Thematic analysis; cross-role synthesis; descriptive and disaggregated statistics; structural-context analysis",
+        "integration_target": "RQ2 Joint Display (Infrastructural and Policy Conditions)"
       },
       {
         "id": "RQ3",
         "number": 3,
-        "title": "Framework-Aligned Policy, Assessment & Design Supports",
-        "question": "What framework-aligned policy language, assessment expectations, and instructional-design supports do K-12 educators and school-system leaders describe as necessary to preserve productive friction while reducing exclusionary friction under conditions of generative AI?",
-        "focus": "Actionable synthesis across policy language, assessment expectations, and instructional design to support friction-preserving practice",
+        "title": "Friction-Preserving Supports and Leadership Approaches",
+        "question": "What language, assessment expectations, instructional practices, professional supports, and leadership approaches do educators and school-system leaders identify as important for preserving forms of friction that support learning while reducing unnecessary barriers?",
+        "focus": "Participant-identified language, expectations, practices, supports, and leadership approaches that preserve learning-supportive friction while reducing unnecessary barriers",
         "role_groups": ["Classroom-facing Educators", "Building-level Administrators", "District/System-level Leaders"],
-        "frictions": ["noetic", "rhetorical", "existential", "infrastructural"],
+        "frictions": ["integration"],
         "evidence": [
-          { "source": "Cross-role participant interviews", "strand": "qual", "role": "core" },
-          { "source": "Institutional document analysis", "strand": "qual", "role": "core" },
-          { "source": "Educator survey policy & design recommendations", "strand": "quan", "role": "core" },
-          { "source": "Synthesized joint display meta-inferences across core and supplementary evidence", "strand": "mixed", "role": "supplementary" }
+          { "source": "Cross-role synthesis across classroom-facing educator, building-level administrator, and district or system-level leader interviews", "strand": "qual", "role": "core" },
+          { "source": "Policy document analysis", "strand": "qual", "role": "core" },
+          { "source": "Educator survey policy and readiness items", "strand": "quan", "role": "core" },
+          { "source": "Adult university-student retrospective accounts may provide context without being equated with professional role groups", "strand": "qual", "role": "supplementary" },
+          { "source": "Joint displays synthesizing RQ1 and RQ2 themes with supporting structural context", "strand": "mixed", "role": "supplementary" }
         ],
-        "integration_target": "Synthesized Meta-Inferences & Practice-Oriented Framework Supports"
+        "analysis": "Framework-informed policy synthesis grounded in role-based patterns and structural-context evidence",
+        "integration_target": "Cross-question synthesis of RQ1 and RQ2 through joint displays and narrative interpretation"
       }
     ]
   },
@@ -227,7 +237,7 @@
         "K-12 classroom-facing educators",
         "Building-level administrators",
         "District or system-level leaders",
-        "University students (contextual learner-perspective supplement only)"
+        "Adult university students (direct participant evidence for RQ1; contextual learner perspective for RQ2 and RQ3)"
       ]
     },
     "quantitative": {
