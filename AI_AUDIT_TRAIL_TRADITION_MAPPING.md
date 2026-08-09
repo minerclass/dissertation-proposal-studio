@@ -13,7 +13,7 @@
 | :--- | :--- |
 | **Files Modified** | `data/references.json`, `data/traditions.json` |
 | **Sources Affected** | 104 of 151 references previously carried an empty `tradition` field |
-| **Result** | All 151 references are now assigned. 80 mapped onto the existing 14 traditions; 24 required 4 new traditions. Two were reassigned on 2026-08-07 (see section 4) |
+| **Result** | All 151 references are now assigned. Of the 104 newly classified references, 77 mapped onto the existing 14 traditions and 27 mapped onto 4 new traditions. Two were reassigned on 2026-08-07 (see section 4) |
 | **Also Filled** | The `title` field on the same 104 records, recovered from their APA `citation` strings |
 | **Downstream** | `diss-proposal-defense` regenerated via `tools/build-intellectual-history.mjs`; its Proposal Bibliography bucket is now empty |
 
@@ -25,7 +25,7 @@ Assignments are editorial and revisable. To move a source, change its `tradition
 
 ## 3. The four new traditions
 
-These were added because 24 sources had no defensible home among the existing 14.
+These were added because 27 sources had no defensible home among the existing 14.
 
 | Tradition | n | Why it was needed |
 | :--- | :--- | :--- |
@@ -45,9 +45,9 @@ As first applied, Braun and Clarke (2006, 2021) moved to Research Methods and An
 ## 5. Method
 
 * **Tool Used**: Node script (`map-traditions.mjs`, run once, not committed), applying an explicit id-to-tradition table.
-* **Task Performed**: Read all 104 unassigned references in full, classify each, add the four new traditions, recover empty titles, and rebuild every `refs` array from the `tradition` field so the two files cannot drift.
+* **Task Performed**: Reviewed the APA citation string for each of the 104 unassigned references, classified each, added the four new traditions, recovered empty titles, and rebuilt every `refs` array from the `tradition` field so the two files cannot drift.
 * **Guards**: The script fails loudly on an unknown reference id, a source assigned twice, a source that already had a tradition, a title it cannot recover, or any reference left unassigned. All guards passed.
-* **Titles**: Recovered by parsing the APA `citation` string. Twelve cases the parser cannot resolve on its own, including titles ending in a question mark, translator credits, and Postman's `(1998, March 28)` full date, use an explicit override table. All 104 outputs were read against their citation strings rather than spot-checked.
+* **Titles**: Recovered from the APA `citation` strings. The parser recovered 92 titles directly. Twelve cases required explicit overrides, including titles ending in a question mark, translator credits, and Postman's `(1998, March 28)` full date. All 104 recovered titles were checked against their citation strings rather than spot-checked.
 * **Verification**: JSON validated on both files. Local server click-through of the Traditions section and Reference Library: 18 traditions render, the new works lists populate, the tradition filter offers 19 options, and 151 of 151 sources show. No console errors. No em dashes introduced in user-facing copy. `private/` confirmed untracked before commit.
 
 ## 6. Known issues not addressed here
