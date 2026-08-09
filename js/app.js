@@ -3,7 +3,16 @@
   "use strict";
 
   var state = { ideas: null, traditions: [], references: [], refById: {} };
-  var DATA_VERSION = "20260804c";
+  var DATA_VERSION = "20260809a";
+
+  var GROUP_KIND_LABELS = {
+    "intellectual-lineage": "Intellectual lineage",
+    "research-tradition": "Research tradition",
+    "conceptual-framework": "Conceptual framework",
+    "methodological-framework": "Methodological framework",
+    "research-infrastructure": "Research infrastructure",
+    "evidence-context": "Evidence and practice context"
+  };
 
   function $(sel, root) { return (root || document).querySelector(sel); }
   function el(tag, cls, html) {
@@ -28,6 +37,10 @@
     return Array.isArray(value) ? value : [];
   }
 
+  function groupKindLabel(kind) {
+    return GROUP_KIND_LABELS[kind] || "Mapped group";
+  }
+
   function load(path) {
     var separator = path.indexOf("?") === -1 ? "?" : "&";
     return fetch(path + separator + "v=" + DATA_VERSION).then(function (r) {
@@ -42,7 +55,7 @@
     $("#hero-sub").textContent = o.abstract_short || "";
     var stats = [
       [state.ideas.stages.length, "media-ecology stages"],
-      [state.traditions.length, "intellectual traditions"],
+      [state.traditions.length, "mapped literature groups"],
       [asArray(state.ideas.research_questions && state.ideas.research_questions.dissertation).length, "dissertation RQs"],
       [state.ideas.framework_dimensions.length, "friction dimensions"],
       [state.references.length, "sources mapped"]
@@ -95,6 +108,7 @@
       b.setAttribute("role", "tab");
       b.setAttribute("aria-selected", i === 0 ? "true" : "false");
       b.innerHTML = '<span class="t-name">' + esc(t.name) + '</span>' +
+        '<span class="t-kind">' + esc(groupKindLabel(t.kind)) + '</span>' +
         '<span class="t-era">' + esc(t.era) + "</span>";
       b.addEventListener("click", function () { selectTradition(i); });
       li.appendChild(b);
@@ -109,6 +123,7 @@
     var d = $("#tradition-detail");
     d.innerHTML = "";
     d.appendChild(el("h3", null, esc(t.name)));
+    d.appendChild(el("p", "t-kind", esc(groupKindLabel(t.kind))));
     d.appendChild(el("p", "t-thinkers", esc((t.thinkers || []).join(" · "))));
     d.appendChild(el("p", "t-contribution", esc(t.contribution)));
 

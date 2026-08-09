@@ -6,10 +6,10 @@ An interactive, two-tier companion for Micah J. Miner's dissertation proposal,
 
 It does two jobs:
 
-1. **Public intellectual history** (`index.html`): an interactive map of the argument and the
-   intellectual lineages behind it, from Walter Ong's media ecology through critical algorithm
-   studies and the current generative-AI scholarship. Walk the five-stage arc, explore the
-   traditions, study the friction framework, and search the reference library.
+1. **Public literature map** (`index.html`): an interactive map of the argument that distinguishes
+   intellectual lineages and research traditions from conceptual and methodological frameworks,
+   research infrastructure, and evidence or practice context. Walk the five-stage arc, explore
+   the mapped groups, study the friction framework, and search the reference library.
 2. **Private defense prep** (`private/`, local only): a Defense Studio with claims and evidence,
    the methodology walkthrough, mock committee Q&A, a rubric self-check, and IRB talking points.
 
@@ -20,7 +20,7 @@ index.html              Public single-page experience
 css/styles.css          Styles
 js/app.js               Loads data/*.json and renders the four public views
 data/ideas.json         Conceptual model: stages, framework, RQs, design
-data/traditions.json    Intellectual-history lineage nodes + links to friction and Drive folders
+data/traditions.json    Literature-map groups, kinds, friction links, and source memberships
 data/references.json    Citation-level references (from the compiled annotated bibliography)
 private/                LOCAL ONLY, gitignored: defense.html + defense.json + README-private.md
 ```

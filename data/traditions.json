@@ -1,16 +1,18 @@
 {
-  "_note": "Public intellectual-history lineage nodes. Each tradition shows what it contributes to the dissertation argument, which friction dimensions and media-ecology stages it informs, and the public reference ids that belong to it.",
+  "_note": "Public literature-map groups. The kind field distinguishes intellectual lineages, research traditions, conceptual and methodological frameworks, research infrastructure, and evidence context.",
   "traditions": [
     {
       "id": "phenomenology",
-      "name": "Phenomenology and the Lifeworld",
+      "kind": "intellectual-lineage",
+      "name": "Phenomenology, Hermeneutics, and the Lifeworld",
       "originYear": 1936,
       "era": "1936 to present",
       "thinkers": [
         "Edmund Husserl",
+        "Hans-Georg Gadamer",
         "Paul Virilio"
       ],
-      "contribution": "Names the crisis that follows when formalized systems detach from lived, first-person experience. Grounds the dissertation's concept of existential abstraction.",
+      "contribution": "Connects phenomenology's attention to lived experience with Gadamer's philosophical hermeneutics and Virilio's critique of technologically accelerated perception. Grounds existential abstraction while keeping interpretation and the lifeworld explicit.",
       "frictions": [
         "existential",
         "noetic"
@@ -20,12 +22,12 @@
       ],
       "refs": [
         "proposal-gadamer-2004",
-        "proposal-frankfurt-2005",
         "virilio2006"
       ]
     },
     {
       "id": "learning-sciences-friction",
+      "kind": "research-tradition",
       "name": "Learning Sciences of Productive Struggle",
       "originYear": 1938,
       "era": "1938 to present",
@@ -63,6 +65,7 @@
     },
     {
       "id": "canadian-media-theory",
+      "kind": "intellectual-lineage",
       "name": "Canadian Media Theory",
       "originYear": 1951,
       "era": "1951 to 1980",
@@ -85,6 +88,7 @@
     },
     {
       "id": "critical-theory-of-technology",
+      "kind": "intellectual-lineage",
       "name": "Critical Theory of Technology",
       "originYear": 1964,
       "era": "1964 to present",
@@ -124,6 +128,7 @@
     },
     {
       "id": "constructionism",
+      "kind": "intellectual-lineage",
       "name": "Constructionism",
       "originYear": 1980,
       "era": "1980 to present",
@@ -143,6 +148,7 @@
     },
     {
       "id": "media-ecology",
+      "kind": "intellectual-lineage",
       "name": "Media Ecology (Ong)",
       "originYear": 1982,
       "era": "1982 to present",
@@ -170,6 +176,7 @@
     },
     {
       "id": "constructivist-qualitative-inquiry",
+      "kind": "methodological-framework",
       "name": "Constructivist Qualitative Inquiry",
       "originYear": 1985,
       "era": "1985 to present",
@@ -180,7 +187,7 @@
         "Virginia Braun",
         "Victoria Clarke"
       ],
-      "contribution": "Supplies the interpretive stance for understanding participant meaning as situated and co-constructed, with sensemaking connecting ambiguous educational conditions to the cues, frames, accounts, and actions participants describe. Reflexive thematic analysis belongs here rather than with procedure, because its treatment of the researcher as an instrument follows from that stance.",
+      "contribution": "Supplies the study's interpretive stance for understanding participant meaning as situated and co-constructed. Reflexive thematic analysis is grouped here because this study uses it within that constructivist stance; the method itself remains theoretically flexible.",
       "frictions": [],
       "stages": [],
       "refs": [
@@ -196,6 +203,7 @@
     },
     {
       "id": "media-archaeology",
+      "kind": "intellectual-lineage",
       "name": "Media Archaeology",
       "originYear": 1999,
       "era": "1999 to present",
@@ -228,6 +236,7 @@
     },
     {
       "id": "educational-sensemaking",
+      "kind": "conceptual-framework",
       "name": "Educational Sensemaking",
       "originYear": 2001,
       "era": "2001 to present",
@@ -251,8 +260,29 @@
       ]
     },
     {
+      "id": "truth-epistemic-integrity",
+      "kind": "conceptual-framework",
+      "name": "Truth, Language, and Epistemic Integrity",
+      "originYear": 2005,
+      "era": "2005 to present",
+      "thinkers": [
+        "Harry G. Frankfurt"
+      ],
+      "contribution": "Clarifies the difference between lying and indifference to truth. Gives the dissertation a vocabulary for examining fluent AI output, authorship, and rhetorical responsibility without treating Frankfurt's conceptual analysis as phenomenology.",
+      "frictions": [
+        "rhetorical"
+      ],
+      "stages": [
+        "tertiary_algorithmicity"
+      ],
+      "refs": [
+        "proposal-frankfurt-2005"
+      ]
+    },
+    {
       "id": "research-methods",
-      "name": "Research Methods and Analysis",
+      "kind": "research-infrastructure",
+      "name": "Research Design, Analysis, and Software",
       "originYear": 2005,
       "era": "2005 to present",
       "thinkers": [
@@ -263,7 +293,7 @@
         "Johnny Saldaña",
         "Michael Quinn Patton"
       ],
-      "contribution": "The design, instrument, and analysis toolkit the study runs on: convergent mixed methods, integration through joint displays, coding and sampling guidance, cognitive interviewing, scale development, and the statistical environments used. Supports how the study is conducted rather than what it argues.",
+      "contribution": "The study's research infrastructure: convergent mixed-methods design, integration through joint displays, coding and sampling guidance, cognitive interviewing, scale development, and statistical software. Supports how the study is conducted rather than naming an intellectual lineage.",
       "frictions": [],
       "stages": [],
       "refs": [
@@ -285,6 +315,7 @@
     },
     {
       "id": "tertiary-orality",
+      "kind": "research-tradition",
       "name": "Tertiary Orality Scholarship",
       "originYear": 2009,
       "era": "2009 to present",
@@ -319,6 +350,7 @@
     },
     {
       "id": "stieglerian",
+      "kind": "intellectual-lineage",
       "name": "Stieglerian Critique",
       "originYear": 2010,
       "era": "2010 to present",
@@ -340,6 +372,7 @@
     },
     {
       "id": "critical-algorithm-studies",
+      "kind": "research-tradition",
       "name": "Critical Algorithm Studies",
       "originYear": 2011,
       "era": "2011 to present",
@@ -367,6 +400,7 @@
     },
     {
       "id": "attention-embodiment",
+      "kind": "evidence-context",
       "name": "Attention, Deep Reading, and Embodiment",
       "originYear": 2011,
       "era": "2011 to present",
@@ -398,6 +432,7 @@
     },
     {
       "id": "disability-exclusionary-difficulty",
+      "kind": "conceptual-framework",
       "name": "Disability, Access, and Exclusionary Difficulty",
       "originYear": 2013,
       "era": "2013 to present",
@@ -420,6 +455,7 @@
     },
     {
       "id": "surveillance-capitalism",
+      "kind": "intellectual-lineage",
       "name": "Surveillance Capitalism and Platform Power",
       "originYear": 2019,
       "era": "2019 to present",
@@ -444,6 +480,7 @@
     },
     {
       "id": "postdigital",
+      "kind": "research-tradition",
       "name": "Postdigital and Critical Literacies",
       "originYear": 2022,
       "era": "2022 to present",
@@ -478,7 +515,8 @@
     },
     {
       "id": "genai-scholarship",
-      "name": "Generative AI in Education (Current Scholarship)",
+      "kind": "evidence-context",
+      "name": "Generative AI in Education: Evidence and Practice Context",
       "originYear": 2024,
       "era": "2024 to present",
       "thinkers": [
@@ -489,7 +527,7 @@
         "Neil Selwyn",
         "Connolly et al."
       ],
-      "contribution": "The contemporary empirical base: teacher perceptions, integration levels, assessment redesign, and AI scaffolding. The terrain the dissertation studies directly.",
+      "contribution": "Brings together contemporary empirical studies, national indicators, policy and practice resources, assessment redesign, and AI scaffolding. It maps the context the dissertation studies rather than claiming a single intellectual lineage.",
       "frictions": [
         "rhetorical",
         "noetic",
