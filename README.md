@@ -1,5 +1,12 @@
 # Pedagogical Friction Studio
 
+## Study status
+
+Micah passed the Chapters 1-3 dissertation proposal defense on August 13, 2026. Interview-question
+wording is now being revised for committee review, followed by a planned three-educator flow
+rehearsal and an update to the IRB materials. IRB approval and formal study activity remain pending;
+this public studio contains no participant data or dissertation findings.
+
 An interactive, two-tier companion for Micah J. Miner's dissertation proposal,
 *Pedagogical Friction in the Age of Generative AI and Tertiary Algorithmicity*
 (Ed.D. in Curriculum, Advocacy & Policy, National Louis University).
