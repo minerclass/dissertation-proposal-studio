@@ -1,14 +1,22 @@
 /* Pedagogical Friction Studio - public intellectual-history view */
 
 :root {
-  --ink: #15202b;
-  --ink-soft: #33414f;
-  --paper: #f7f4ee;
+  /* Ground, ink, and rules come from the shared ecosystem tokens at
+     https://minerclass.github.io/tokens.css, with each fallback set to this
+     page's pre-adoption value so a failed load changes nothing. Accents local. */
+  --ink: var(--mjm-ink, #15202b);
+  --ink-soft: var(--mjm-muted, #33414f);
+  --paper: var(--mjm-bg, #f7f4ee);
+  --mjm-accent: var(--mjm-rust, #7c2d12);
   --paper-2: #efeae0;
   --line: #d9d2c5;
   --accent: #7c2d12;      /* burnt sienna */
   --accent-2: #1d4e6b;    /* slate blue */
   --gold: #b5852a;
+  /* Text-safe gold, matching the value its sibling pedagogical-friction already
+     uses. --gold measures 3.31 as text on the panel and stays correct as a rule,
+     fill, and border; text uses this at 5.65. */
+  --gold-text: #876016;
   --noetic: #1d4e6b;
   --rhetorical: #7c2d12;
   --existential: #4a5d3a;
@@ -104,7 +112,7 @@ a { color: var(--accent-2); }
 }
 .stage-chip:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .stage-chip[aria-selected="true"] { border-color: var(--accent); box-shadow: var(--shadow); }
-.stage-chip .num { font-family: var(--serif); font-size: 0.8rem; color: var(--gold); }
+.stage-chip .num { font-family: var(--serif); font-size: 0.8rem; color: var(--gold-text); }
 .stage-chip .label { display: block; font-family: var(--serif); font-weight: 600; margin-top: 0.25rem; font-size: 0.98rem; }
 .stage-detail {
   border-left: 4px solid var(--accent); background: #fff; border-radius: var(--radius);
@@ -145,7 +153,7 @@ a { color: var(--accent-2); }
 .t-works { list-style: none; margin: 0 0 1.25rem; padding: 0; }
 .t-works li { padding: 0.55rem 0; border-top: 1px solid var(--line); font-size: 0.96rem; }
 .t-works li:first-child { border-top: none; }
-.t-works .yr { color: var(--gold); font-family: var(--serif); margin-right: 0.4rem; }
+.t-works .yr { color: var(--gold-text); font-family: var(--serif); margin-right: 0.4rem; }
 .t-drive { display: inline-block; margin-top: 0.5rem; font-weight: 600; }
 
 /* Framework */
@@ -181,7 +189,7 @@ a { color: var(--accent-2); }
 .ref-card { min-width: 0; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem 1.3rem; }
 .ref-card .ref-head { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
 .ref-card .ref-cite { overflow-wrap: anywhere; font-family: var(--serif); font-size: 1.05rem; margin: 0; }
-.ref-card .ref-cite .yr { color: var(--gold); }
+.ref-card .ref-cite .yr { color: var(--gold-text); }
 .ref-card .ref-venue { font-style: italic; color: var(--ink-soft); font-size: 0.9rem; }
 .ref-card .ref-annot { margin: 0.6rem 0 0.8rem; color: var(--ink-soft); }
 .ref-card .ref-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
