@@ -2,10 +2,10 @@
 
 ## Study status
 
-Micah passed the Chapters 1-3 dissertation proposal defense on August 13, 2026. Interview-question
-wording is now being revised for committee review, followed by a planned three-educator flow
-rehearsal and an update to the IRB materials. IRB approval and formal study activity remain pending;
-this public studio contains no participant data or dissertation findings.
+Micah passed the Chapters 1-3 dissertation proposal defense on August 13, 2026. NLU IRB approved
+the study as Exempt on October 7, 2026 (protocol ER01884), through October 7, 2027. Formal
+recruitment and data collection have not begun. Instruments still need to be matched to the
+approved packet before use. This public studio contains no participant data or dissertation findings.
 
 An interactive, two-tier companion for Micah J. Miner's dissertation proposal,
 *Pedagogical Friction in the Age of Generative AI and Tertiary Algorithmicity*
